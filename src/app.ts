@@ -53,4 +53,4 @@ const onxrloaded = () => {
   XR8.XrController.configure({imageTargetData})
 }
 
-window.XR8 ? onxrloaded() : window.addEventListener('xrloaded', onxrloaded)
+;(window as any).XR8 ? onxrloaded() : window.addEventListener('xrloaded', onxrloaded)
