@@ -54,3 +54,21 @@ const onxrloaded = () => {
 }
 
 ;(window as any).XR8 ? onxrloaded() : window.addEventListener('xrloaded', onxrloaded)
+
+// 첫 터치 시 페이지 내 모든 비디오 언뮤트 (iOS/Android autoplay 정책 대응)
+let audioUnlocked = false
+const unlockAudio = () => {
+  if (audioUnlocked) return
+  audioUnlocked = true
+
+  document.querySelectorAll('video').forEach((video) => {
+    const v = video as HTMLVideoElement
+    v.muted = false
+    v.volume = 1.0
+    if (!v.paused) {
+      v.play().catch(() => {})
+    }
+  })
+}
+window.addEventListener('touchstart', unlockAudio, {passive: true})
+window.addEventListener('click', unlockAudio)
