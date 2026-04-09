@@ -60,68 +60,7 @@
   <meta itemprop="description" content="">
   <meta property="og:description" content="">
   <meta name="twitter:description" content="">
-  <!-- DEBUG PANEL - 임시, 나중에 제거 -->
-  <script>
-    (function() {
-      var panel = document.createElement('div');
-      panel.id = 'debug-panel';
-      panel.style.cssText = [
-        'position:fixed', 'bottom:0', 'left:0', 'right:0',
-        'height:35vh', 'background:rgba(0,0,0,0.85)', 'color:#0f0',
-        'font-size:11px', 'font-family:monospace', 'z-index:99999',
-        'overflow-y:auto', 'padding:4px', 'pointer-events:auto',
-      ].join(';');
-
-      var toggle = document.createElement('button');
-      toggle.textContent = 'DEBUG ▼';
-      toggle.style.cssText = [
-        'position:fixed', 'bottom:35vh', 'right:0',
-        'background:#333', 'color:#0f0', 'border:none',
-        'font-size:11px', 'padding:4px 8px', 'z-index:99999',
-        'cursor:pointer',
-      ].join(';');
-
-      var visible = true;
-      toggle.onclick = function() {
-        visible = !visible;
-        panel.style.display = visible ? 'block' : 'none';
-        toggle.style.bottom = visible ? '35vh' : '0';
-        toggle.textContent = visible ? 'DEBUG ▼' : 'DEBUG ▲';
-      };
-
-      document.addEventListener('DOMContentLoaded', function() {
-        document.body.appendChild(panel);
-        document.body.appendChild(toggle);
-      });
-
-      var addLog = function(type, args) {
-        var line = document.createElement('div');
-        var text = Array.from(args).map(function(a) {
-          try { return typeof a === 'object' ? JSON.stringify(a) : String(a); }
-          catch(e) { return String(a); }
-        }).join(' ');
-        line.style.color = type === 'error' ? '#f66' : type === 'warn' ? '#fa0' : '#0f0';
-        line.textContent = '[' + type.toUpperCase() + '] ' + text;
-        panel.appendChild(line);
-        panel.scrollTop = panel.scrollHeight;
-      };
-
-      ['log', 'warn', 'error'].forEach(function(type) {
-        var orig = console[type].bind(console);
-        console[type] = function() {
-          orig.apply(console, arguments);
-          addLog(type, arguments);
-        };
-      });
-
-      window.addEventListener('unhandledrejection', function(e) {
-        addLog('error', ['UnhandledPromise: ' + (e.reason && e.reason.message || e.reason)]);
-      });
-    })();
-  </script>
-  <!-- /DEBUG PANEL -->
-
-  <script crossorigin="anonymous" src="./external/runtime/runtime.js"></script>
+<script crossorigin="anonymous" src="./external/runtime/runtime.js"></script>
   <script crossorigin="anonymous" src="./external/xr/xr.js" async="true" data-preload-chunks="face, slam">
   </script>
 
