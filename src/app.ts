@@ -55,12 +55,14 @@ const onxrloaded = () => {
 
 ;(window as any).XR8 ? onxrloaded() : window.addEventListener('xrloaded', onxrloaded)
 
-// 첫 터치 시 페이지 내 모든 비디오 언뮤트 (iOS/Android autoplay 정책 대응)
+// 첫 터치 시 오디오 잠금 해제 + 이후 재생되는 모든 비디오 자동 언뮤트
 let audioUnlocked = false
+
 const unlockAudio = () => {
   if (audioUnlocked) return
   audioUnlocked = true
 
+  // 현재 이미 재생 중인 비디오 언뮤트
   document.querySelectorAll('video').forEach((video) => {
     const v = video as HTMLVideoElement
     v.muted = false
@@ -70,5 +72,16 @@ const unlockAudio = () => {
     }
   })
 }
+
+// 이후 재생 시작하는 모든 비디오도 언뮤트 (이미지 타겟 인식 후 재생 포함)
+document.addEventListener('play', (e) => {
+  if (!audioUnlocked) return
+  const v = e.target as HTMLVideoElement
+  if (v && v.tagName === 'VIDEO' && v.muted) {
+    v.muted = false
+    v.volume = 1.0
+  }
+}, true)
+
 window.addEventListener('touchstart', unlockAudio, {passive: true})
 window.addEventListener('click', unlockAudio)
