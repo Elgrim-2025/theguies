@@ -57,8 +57,10 @@ class ChromaKeyMaterial extends THREE.ShaderMaterial {
       }))
     })
 
-    // 첫 터치로 재생 시작
+    // 첫 터치로 재생 시작 + 언뮤트
     const startPlayback = () => {
+      this.video.muted = false
+      this.video.volume = 1.0
       this.video.play().catch(e => console.warn('Autoplay failed:', e))
     }
     window.addEventListener('click', startPlayback, {once: true})
