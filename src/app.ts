@@ -73,9 +73,8 @@ const unlockAudio = () => {
   })
 }
 
-// 이후 재생 시작하는 모든 비디오도 언뮤트 (이미지 타겟 인식 후 재생 포함)
+// 재생 시작하는 모든 비디오 즉시 언뮤트 (이미지 타겟은 터치 없이 재생되므로 guard 없음)
 document.addEventListener('play', (e) => {
-  if (!audioUnlocked) return
   const v = e.target as HTMLVideoElement
   if (v && v.tagName === 'VIDEO' && v.muted) {
     v.muted = false
