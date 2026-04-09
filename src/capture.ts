@@ -3,9 +3,6 @@ import * as ecs from '@8thwall/ecs'
 declare const XR8: any
 
 declare global {
-  interface Navigator {
-    canShare?: (data?: ShareData) => boolean
-  }
   interface ShareData {
     files?: File[]
   }
