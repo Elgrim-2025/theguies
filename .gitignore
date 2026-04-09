@@ -1,0 +1,5 @@
+node_modules/
+dist/
+
+# 대용량 영상 파일 (Cloudflare R2에 별도 보관)
+src/assets/*.mp4

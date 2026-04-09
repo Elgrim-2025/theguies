@@ -1,0 +1,18 @@
+{
+  "imagePath": "image-targets/10-2_target.png",
+  "name": "10-2",
+  "type": "PLANAR",
+  "properties": {
+    "top": 0,
+    "left": 27,
+    "width": 548,
+    "height": 731,
+    "isRotated": false,
+    "originalWidth": 603,
+    "originalHeight": 731
+  },
+  "userMetadataIsJson": true,
+  "loadAutomatically": true,
+  "created": 1767320464243,
+  "updated": 1767320464243
+}

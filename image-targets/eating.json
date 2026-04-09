@@ -1,0 +1,18 @@
+{
+  "imagePath": "image-targets/eating_target.png",
+  "name": "eating",
+  "type": "PLANAR",
+  "properties": {
+    "top": 0,
+    "left": 25,
+    "width": 548,
+    "height": 731,
+    "isRotated": false,
+    "originalWidth": 600,
+    "originalHeight": 731
+  },
+  "userMetadataIsJson": true,
+  "loadAutomatically": true,
+  "created": 1767320645329,
+  "updated": 1767320645329
+}

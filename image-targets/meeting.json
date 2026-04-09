@@ -1,0 +1,18 @@
+{
+  "imagePath": "image-targets/meeting_target.png",
+  "name": "meeting",
+  "type": "PLANAR",
+  "properties": {
+    "top": 0,
+    "left": 25,
+    "width": 551,
+    "height": 735,
+    "isRotated": false,
+    "originalWidth": 602,
+    "originalHeight": 735
+  },
+  "userMetadataIsJson": true,
+  "loadAutomatically": true,
+  "created": 1767320621738,
+  "updated": 1767320621738
+}

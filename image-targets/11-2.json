@@ -1,0 +1,18 @@
+{
+  "imagePath": "image-targets/11-2_target.png",
+  "name": "11-2",
+  "type": "PLANAR",
+  "properties": {
+    "top": 0,
+    "left": 31,
+    "width": 539,
+    "height": 719,
+    "isRotated": false,
+    "originalWidth": 602,
+    "originalHeight": 719
+  },
+  "userMetadataIsJson": true,
+  "loadAutomatically": true,
+  "created": 1767320563170,
+  "updated": 1767320563170
+}

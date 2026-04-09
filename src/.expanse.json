@@ -1,0 +1,5118 @@
+{
+  "entrySpaceId": "07e9f7e1-ea77-4843-aacf-7ecf382ae061",
+  "objects": {
+    "f28767ea-4df9-4058-96e5-65f71ac248c7": {
+      "components": {
+        "4a48b8ad-d61d-4537-b8eb-142e7474b0b3": {
+          "id": "4a48b8ad-d61d-4537-b8eb-142e7474b0b3",
+          "name": "Video Controls UI",
+          "parameters": {
+            "background": {
+              "type": "entity",
+              "id": "faa0c579-2947-43c2-b465-4720ec93ff06"
+            },
+            "playbackImage": {
+              "type": "entity",
+              "id": "f542be23-cd7d-44e6-92f1-c183d6fad46b"
+            }
+          }
+        }
+      },
+      "geometry": {
+        "height": 9,
+        "type": "plane",
+        "width": 16
+      },
+      "id": "f28767ea-4df9-4058-96e5-65f71ac248c7",
+      "material": {
+        "color": "#fcfcfc",
+        "side": "front",
+        "type": "basic",
+        "wireframe": false,
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/videos/beach.mp4"
+        },
+        "roughness": 1
+      },
+      "name": "Video Surface",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        0.20000000000000004,
+        0.20000000000000004,
+        0.20000000000000004
+      ],
+      "videoControls": {
+        "paused": true,
+        "loop": true,
+        "volume": 1,
+        "positional": false
+      },
+      "order": 5.5219435267847405,
+      "shadow": {
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      "prefab": true
+    },
+    "faa0c579-2947-43c2-b465-4720ec93ff06": {
+      "id": "faa0c579-2947-43c2-b465-4720ec93ff06",
+      "position": [
+        0,
+        0,
+        0.001
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1.0000000000000004,
+        1.0000000000000004,
+        1.0000000000000004
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "f28767ea-4df9-4058-96e5-65f71ac248c7",
+      "components": {},
+      "ui": {
+        "flexDirection": "row",
+        "width": 1600,
+        "height": 900,
+        "type": "3d",
+        "background": "#000000",
+        "backgroundOpacity": 0.5,
+        "alignItems": "center",
+        "justifyContent": "center"
+      },
+      "name": "Background"
+    },
+    "f542be23-cd7d-44e6-92f1-c183d6fad46b": {
+      "id": "f542be23-cd7d-44e6-92f1-c183d6fad46b",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        0.9999999999999999,
+        0.9999999999999999,
+        0.9999999999999999
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "faa0c579-2947-43c2-b465-4720ec93ff06",
+      "components": {},
+      "ui": {
+        "type": "3d",
+        "width": 256,
+        "height": 256,
+        "image": {
+          "type": "asset",
+          "asset": "assets/icons/pause-button.png"
+        },
+        "backgroundOpacity": 1,
+        "backgroundSize": "contain"
+      },
+      "name": "Image"
+    },
+    "a605d0b1-964b-42a7-8c17-4cb2b7b6d89a": {
+      "components": {
+        "3dd9dc04-ebcd-4611-9f21-8a24bb80225b": {
+          "id": "3dd9dc04-ebcd-4611-9f21-8a24bb80225b",
+          "name": "Video Controls UI - Image Target",
+          "parameters": {
+            "background": {
+              "type": "entity",
+              "id": "852dd534-a2c7-4e82-816c-1037ef8ebc81"
+            },
+            "playbackImage": {
+              "type": "entity",
+              "id": "250c6006-e6e1-4acd-9276-122d6ce24ed0"
+            },
+            "imageTargetName": "beach-target"
+          }
+        }
+      },
+      "geometry": {
+        "height": 0.563,
+        "type": "plane",
+        "width": 1
+      },
+      "id": "a605d0b1-964b-42a7-8c17-4cb2b7b6d89a",
+      "material": {
+        "color": "#fcfcfc",
+        "side": "front",
+        "type": "basic",
+        "wireframe": false,
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/videos/beach.mp4"
+        },
+        "roughness": 1
+      },
+      "name": "Video Surface - Image Target",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        0.20000000000000004,
+        0.20000000000000004,
+        0.20000000000000004
+      ],
+      "videoControls": {
+        "paused": true,
+        "loop": true,
+        "volume": 1,
+        "positional": false
+      },
+      "order": 5.5219435267847405,
+      "shadow": {
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      "prefab": true
+    },
+    "852dd534-a2c7-4e82-816c-1037ef8ebc81": {
+      "id": "852dd534-a2c7-4e82-816c-1037ef8ebc81",
+      "position": [
+        0,
+        0,
+        0.001
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1.0000000000000004,
+        1.0000000000000004,
+        1.0000000000000004
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "a605d0b1-964b-42a7-8c17-4cb2b7b6d89a",
+      "components": {},
+      "ui": {
+        "flexDirection": "row",
+        "width": 100,
+        "height": 56,
+        "type": "3d",
+        "background": "#000000",
+        "backgroundOpacity": 0.5,
+        "alignItems": "center",
+        "justifyContent": "center"
+      },
+      "name": "Background"
+    },
+    "250c6006-e6e1-4acd-9276-122d6ce24ed0": {
+      "id": "250c6006-e6e1-4acd-9276-122d6ce24ed0",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        0.9999999999999999,
+        0.9999999999999999,
+        0.9999999999999999
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "852dd534-a2c7-4e82-816c-1037ef8ebc81",
+      "components": {},
+      "ui": {
+        "type": "3d",
+        "width": 16,
+        "height": 16,
+        "image": {
+          "type": "asset",
+          "asset": "assets/icons/pause-button.png"
+        },
+        "backgroundOpacity": 1,
+        "backgroundSize": "contain"
+      },
+      "name": "Image"
+    },
+    "82893822-d5ab-4267-8c16-99bd19e44764": {
+      "id": "82893822-d5ab-4267-8c16-99bd19e44764",
+      "position": [
+        10,
+        5,
+        5
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "07e9f7e1-ea77-4843-aacf-7ecf382ae061",
+      "components": {},
+      "light": {
+        "type": "directional"
+      },
+      "name": "Directional Light",
+      "order": 0.4522159515769232
+    },
+    "c575459e-2436-40dc-b603-569abcb45744": {
+      "id": "c575459e-2436-40dc-b603-569abcb45744",
+      "position": [
+        10,
+        5,
+        5
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "07e9f7e1-ea77-4843-aacf-7ecf382ae061",
+      "components": {},
+      "light": {
+        "type": "ambient"
+      },
+      "name": "Ambient Light",
+      "order": 1.807685094693333
+    },
+    "575c0c70-fbb9-44ed-b7ed-0ec0c7e9bc7e": {
+      "id": "575c0c70-fbb9-44ed-b7ed-0ec0c7e9bc7e",
+      "position": [
+        0,
+        5,
+        7
+      ],
+      "rotation": [
+        4.329780281177466e-17,
+        -0.7071067811865476,
+        0.7071067811865475,
+        4.329780281177467e-17
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "07e9f7e1-ea77-4843-aacf-7ecf382ae061",
+      "components": {},
+      "name": "Camera",
+      "camera": {
+        "type": "perspective",
+        "xr": {
+          "xrCameraType": "world",
+          "phone": "AR",
+          "desktop": "disabled",
+          "headset": "disabled",
+          "world": {
+            "disableWorldTracking": true
+          }
+        }
+      },
+      "order": 2.485996574821945
+    },
+    "56423afb-7112-47bc-82f5-e59af7ae3220": {
+      "id": "56423afb-7112-47bc-82f5-e59af7ae3220",
+      "position": [
+        5.412368730363689e-16,
+        0.07979387610490551,
+        0.908
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        0.96,
+        1.262,
+        1.9999999999999984
+      ],
+      "geometry": {
+        "type": "plane",
+        "width": 1,
+        "height": 1
+      },
+      "material": {
+        "type": "basic",
+        "color": "#fcfcfc",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "https://pub-c6558a20d27f4a0695f85e66e0e4eb76.r2.dev/1month-back.mp4"
+        },
+        "roughness": 1,
+        "normalScale": 1,
+        "metalness": 0,
+        "opacity": 1,
+        "emissiveIntensity": 0,
+        "blending": "normal",
+        "textureFiltering": "smooth",
+        "mipmaps": true,
+        "wrap": "repeat",
+        "wireframe": false,
+        "forceTransparent": false
+      },
+      "parentId": "f35da28a-682f-49a1-8a73-b85d2cb3e3d9",
+      "components": {
+        "4fc9647d-b16a-477e-9dc6-ceade3a67350": {
+          "id": "4fc9647d-b16a-477e-9dc6-ceade3a67350",
+          "name": "Video Controls UI - Image Target",
+          "parameters": {
+            "imageTargetName": "1_",
+            "videoId": "1_"
+          }
+        }
+      },
+      "name": "VideoPlane",
+      "order": 8.898903273762798,
+      "shadow": {
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      "videoControls": {
+        "paused": true,
+        "loop": true
+      }
+    },
+    "e96310cc-c309-4d85-bdb7-f545db61c430": {
+      "id": "e96310cc-c309-4d85-bdb7-f545db61c430",
+      "position": [
+        0,
+        -31.883370910009273,
+        0
+      ],
+      "rotation": [
+        -0.707106799999999,
+        0,
+        0,
+        0.7071067623730954
+      ],
+      "scale": [
+        1,
+        1.0000000532124818,
+        1.0000000532124818
+      ],
+      "parentId": "07e9f7e1-ea77-4843-aacf-7ecf382ae061",
+      "components": {
+        "77bc66b8-7a89-46d5-8936-4fd9e9031f7c": {
+          "id": "77bc66b8-7a89-46d5-8936-4fd9e9031f7c",
+          "name": "capture"
+        }
+      },
+      "name": "ScreenShotUI",
+      "order": 5.2954904848693864,
+      "hidden": false
+    },
+    "d2ed5d4d-b1c8-43b0-8a59-89a5a82bfe0f": {
+      "id": "d2ed5d4d-b1c8-43b0-8a59-89a5a82bfe0f",
+      "position": [
+        0,
+        -18.0100965844254,
+        0
+      ],
+      "rotation": [
+        -0.707106799999999,
+        0,
+        0,
+        0.7071067623730954
+      ],
+      "scale": [
+        1,
+        1.0000000532124818,
+        1.0000000532124818
+      ],
+      "parentId": "07e9f7e1-ea77-4843-aacf-7ecf382ae061",
+      "components": {
+        "93de23c7-715a-4c40-a1e0-fa075242e9a0": {
+          "id": "93de23c7-715a-4c40-a1e0-fa075242e9a0",
+          "name": "video-capture",
+          "parameters": {}
+        }
+      },
+      "name": "VideoCaptureUI",
+      "order": 6.320451020507047
+    },
+    "7cfc6ad5-8d01-4b07-8572-b0edc892de3e": {
+      "id": "7cfc6ad5-8d01-4b07-8572-b0edc892de3e",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "07e9f7e1-ea77-4843-aacf-7ecf382ae061",
+      "components": {
+        "8cffabeb-1d41-4a7e-b12b-4c6ebb9372f5": {
+          "id": "8cffabeb-1d41-4a7e-b12b-4c6ebb9372f5",
+          "name": "playback-toggle",
+          "parameters": {}
+        }
+      },
+      "name": "PlayButtonToggle",
+      "order": 8.147692612303011
+    },
+    "f35da28a-682f-49a1-8a73-b85d2cb3e3d9": {
+      "id": "f35da28a-682f-49a1-8a73-b85d2cb3e3d9",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "07e9f7e1-ea77-4843-aacf-7ecf382ae061",
+      "components": {},
+      "name": "1-2",
+      "imageTarget": {
+        "name": "1_"
+      },
+      "order": 11.065652702696664
+    },
+    "bdaf487e-a149-471d-b31b-8350868277cb": {
+      "id": "bdaf487e-a149-471d-b31b-8350868277cb",
+      "position": [
+        0,
+        0,
+        0.001
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "56423afb-7112-47bc-82f5-e59af7ae3220",
+      "components": {},
+      "ui": {
+        "type": "3d",
+        "width": 100,
+        "height": 100,
+        "background": "#000000",
+        "borderRadius": 0,
+        "flexDirection": "row",
+        "backgroundOpacity": 0.30000000000000004,
+        "padding": "10",
+        "gap": "6",
+        "alignItems": "center",
+        "justifyContent": "center"
+      },
+      "name": "Background",
+      "order": 1.5711652076767126,
+      "disabled": true
+    },
+    "27474582-eaba-436b-8e3f-4d6bb2a672c5": {
+      "id": "27474582-eaba-436b-8e3f-4d6bb2a672c5",
+      "position": [
+        -0.323,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "bdaf487e-a149-471d-b31b-8350868277cb",
+      "components": {},
+      "name": "Icon",
+      "ui": {
+        "width": 16,
+        "height": 16,
+        "image": {
+          "type": "asset",
+          "asset": "assets/icons/pause-button.png"
+        },
+        "backgroundOpacity": 1,
+        "backgroundSize": "contain"
+      },
+      "order": 0.4620187208605919
+    },
+    "29e6d43d-182f-4cb3-9d23-ff73b3d3d20d": {
+      "id": "29e6d43d-182f-4cb3-9d23-ff73b3d3d20d",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "name": "1-1",
+      "imageTarget": {
+        "name": "1-2"
+      },
+      "order": 10.55174342921528,
+      "parentId": "07e9f7e1-ea77-4843-aacf-7ecf382ae061"
+    },
+    "7e8ed361-e313-47d4-b6ac-3f907520a6b7": {
+      "id": "7e8ed361-e313-47d4-b6ac-3f907520a6b7",
+      "position": [
+        5.412368730363689e-16,
+        0.07979387610490551,
+        0.908
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        0.96,
+        1.262,
+        1.9999999999999984
+      ],
+      "geometry": {
+        "type": "plane",
+        "width": 1,
+        "height": 1
+      },
+      "material": {
+        "type": "basic",
+        "color": "#fcfcfc",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "https://pub-c6558a20d27f4a0695f85e66e0e4eb76.r2.dev/1month-front.mp4"
+        },
+        "roughness": 1,
+        "normalScale": 1,
+        "metalness": 0,
+        "opacity": 1,
+        "emissiveIntensity": 0,
+        "blending": "normal",
+        "textureFiltering": "smooth",
+        "mipmaps": true,
+        "wrap": "repeat",
+        "wireframe": false,
+        "forceTransparent": false
+      },
+      "parentId": "29e6d43d-182f-4cb3-9d23-ff73b3d3d20d",
+      "components": {
+        "4fc9647d-b16a-477e-9dc6-ceade3a67350": {
+          "id": "4fc9647d-b16a-477e-9dc6-ceade3a67350",
+          "name": "Video Controls UI - Image Target",
+          "parameters": {
+            "imageTargetName": "1-2",
+            "videoId": "1-2"
+          }
+        }
+      },
+      "name": "VideoPlane (1)",
+      "order": 1,
+      "shadow": {
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      "videoControls": {
+        "paused": true,
+        "loop": true
+      }
+    },
+    "4045edc1-0394-4ce4-a2b1-9850bfa1b17c": {
+      "id": "4045edc1-0394-4ce4-a2b1-9850bfa1b17c",
+      "position": [
+        0,
+        0,
+        0.001
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "7e8ed361-e313-47d4-b6ac-3f907520a6b7",
+      "components": {},
+      "ui": {
+        "type": "3d",
+        "width": 100,
+        "height": 100,
+        "background": "#000000",
+        "borderRadius": 0,
+        "flexDirection": "row",
+        "backgroundOpacity": 0.30000000000000004,
+        "padding": "10",
+        "gap": "6",
+        "alignItems": "center",
+        "justifyContent": "center"
+      },
+      "name": "Background (1)",
+      "order": 2,
+      "disabled": true
+    },
+    "8a6fb748-6ef6-480b-898f-dfaefb764655": {
+      "id": "8a6fb748-6ef6-480b-898f-dfaefb764655",
+      "position": [
+        -0.323,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "4045edc1-0394-4ce4-a2b1-9850bfa1b17c",
+      "components": {},
+      "name": "Icon (1)",
+      "ui": {
+        "width": 16,
+        "height": 16,
+        "image": {
+          "type": "asset",
+          "asset": "assets/icons/pause-button.png"
+        },
+        "backgroundOpacity": 1,
+        "backgroundSize": "contain"
+      },
+      "order": 3
+    },
+    "9c07f7f8-0a13-45db-8156-696810145eea": {
+      "id": "9c07f7f8-0a13-45db-8156-696810145eea",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "name": "2-1",
+      "imageTarget": {
+        "name": "2-1"
+      },
+      "order": 11.706308051269525,
+      "parentId": "07e9f7e1-ea77-4843-aacf-7ecf382ae061"
+    },
+    "96339adf-7ab7-4427-be2f-1235d21d102d": {
+      "id": "96339adf-7ab7-4427-be2f-1235d21d102d",
+      "position": [
+        5.412368730363689e-16,
+        0.07979387610490551,
+        0.918
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        0.96,
+        1.262,
+        1.9999999999999984
+      ],
+      "geometry": {
+        "type": "plane",
+        "width": 1,
+        "height": 1
+      },
+      "material": {
+        "type": "basic",
+        "color": "#fcfcfc",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "https://pub-c6558a20d27f4a0695f85e66e0e4eb76.r2.dev/2month-front.mp4"
+        },
+        "roughness": 1,
+        "normalScale": 1,
+        "metalness": 0,
+        "opacity": 1,
+        "emissiveIntensity": 0,
+        "blending": "normal",
+        "textureFiltering": "smooth",
+        "mipmaps": true,
+        "wrap": "repeat",
+        "wireframe": false,
+        "forceTransparent": false
+      },
+      "parentId": "9c07f7f8-0a13-45db-8156-696810145eea",
+      "components": {
+        "4fc9647d-b16a-477e-9dc6-ceade3a67350": {
+          "id": "4fc9647d-b16a-477e-9dc6-ceade3a67350",
+          "name": "Video Controls UI - Image Target",
+          "parameters": {
+            "imageTargetName": "2-1",
+            "videoId": "2-1"
+          }
+        }
+      },
+      "name": "VideoPlane (2)",
+      "order": 1,
+      "shadow": {
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      "videoControls": {
+        "paused": true,
+        "loop": true
+      }
+    },
+    "b0004b1f-5fe7-40ac-a3d4-b5cbb480439c": {
+      "id": "b0004b1f-5fe7-40ac-a3d4-b5cbb480439c",
+      "position": [
+        0,
+        0,
+        0.001
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "96339adf-7ab7-4427-be2f-1235d21d102d",
+      "components": {},
+      "ui": {
+        "type": "3d",
+        "width": 100,
+        "height": 100,
+        "background": "#000000",
+        "borderRadius": 0,
+        "flexDirection": "row",
+        "backgroundOpacity": 0.30000000000000004,
+        "padding": "10",
+        "gap": "6",
+        "alignItems": "center",
+        "justifyContent": "center"
+      },
+      "name": "Background (2)",
+      "order": 2,
+      "disabled": true
+    },
+    "b1e03807-80f0-4375-b073-831b33100dbb": {
+      "id": "b1e03807-80f0-4375-b073-831b33100dbb",
+      "position": [
+        -0.323,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "b0004b1f-5fe7-40ac-a3d4-b5cbb480439c",
+      "components": {},
+      "name": "Icon (2)",
+      "ui": {
+        "width": 16,
+        "height": 16,
+        "image": {
+          "type": "asset",
+          "asset": "assets/icons/pause-button.png"
+        },
+        "backgroundOpacity": 1,
+        "backgroundSize": "contain"
+      },
+      "order": 3
+    },
+    "0c15ed1b-80a1-422b-8152-73f824af01c2": {
+      "id": "0c15ed1b-80a1-422b-8152-73f824af01c2",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "name": "2-2",
+      "imageTarget": {
+        "name": "2-2"
+      },
+      "order": 13.123058598728175,
+      "parentId": "07e9f7e1-ea77-4843-aacf-7ecf382ae061"
+    },
+    "25bd62ca-f5bf-4275-8f2d-470dd05947eb": {
+      "id": "25bd62ca-f5bf-4275-8f2d-470dd05947eb",
+      "position": [
+        5.412368730363689e-16,
+        0.07979387610490551,
+        0.918
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        0.96,
+        1.262,
+        1.9999999999999984
+      ],
+      "geometry": {
+        "type": "plane",
+        "width": 1,
+        "height": 1
+      },
+      "material": {
+        "type": "basic",
+        "color": "#fcfcfc",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "https://pub-c6558a20d27f4a0695f85e66e0e4eb76.r2.dev/2month-back.mp4"
+        },
+        "roughness": 1,
+        "normalScale": 1,
+        "metalness": 0,
+        "opacity": 1,
+        "emissiveIntensity": 0,
+        "blending": "normal",
+        "textureFiltering": "smooth",
+        "mipmaps": true,
+        "wrap": "repeat",
+        "wireframe": false,
+        "forceTransparent": false
+      },
+      "parentId": "0c15ed1b-80a1-422b-8152-73f824af01c2",
+      "components": {
+        "4fc9647d-b16a-477e-9dc6-ceade3a67350": {
+          "id": "4fc9647d-b16a-477e-9dc6-ceade3a67350",
+          "name": "Video Controls UI - Image Target",
+          "parameters": {
+            "imageTargetName": "2-2",
+            "videoId": "2-2"
+          }
+        }
+      },
+      "name": "VideoPlane (3)",
+      "order": 1,
+      "shadow": {
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      "videoControls": {
+        "paused": true,
+        "loop": true
+      }
+    },
+    "7b16437b-9651-4a65-b5e6-24bbf6e485a4": {
+      "id": "7b16437b-9651-4a65-b5e6-24bbf6e485a4",
+      "position": [
+        0,
+        0,
+        0.001
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "25bd62ca-f5bf-4275-8f2d-470dd05947eb",
+      "components": {},
+      "ui": {
+        "type": "3d",
+        "width": 100,
+        "height": 100,
+        "background": "#000000",
+        "borderRadius": 0,
+        "flexDirection": "row",
+        "backgroundOpacity": 0.30000000000000004,
+        "padding": "10",
+        "gap": "6",
+        "alignItems": "center",
+        "justifyContent": "center"
+      },
+      "name": "Background (3)",
+      "order": 2,
+      "disabled": true
+    },
+    "7d664a36-63ab-44d5-8c72-f07fecf6b6e2": {
+      "id": "7d664a36-63ab-44d5-8c72-f07fecf6b6e2",
+      "position": [
+        -0.323,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "7b16437b-9651-4a65-b5e6-24bbf6e485a4",
+      "components": {},
+      "name": "Icon (3)",
+      "ui": {
+        "width": 16,
+        "height": 16,
+        "image": {
+          "type": "asset",
+          "asset": "assets/icons/pause-button.png"
+        },
+        "backgroundOpacity": 1,
+        "backgroundSize": "contain"
+      },
+      "order": 3
+    },
+    "2d8bf2ab-b3e6-495b-b505-a9ea9142a795": {
+      "id": "2d8bf2ab-b3e6-495b-b505-a9ea9142a795",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "name": "3-1",
+      "imageTarget": {
+        "name": "3-1"
+      },
+      "order": 14.51274350894274,
+      "parentId": "07e9f7e1-ea77-4843-aacf-7ecf382ae061"
+    },
+    "d930fe28-b53f-4cc0-bacc-edaa7ba76c2a": {
+      "id": "d930fe28-b53f-4cc0-bacc-edaa7ba76c2a",
+      "position": [
+        5.412368730363689e-16,
+        0.07979387610490551,
+        0.918
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        0.96,
+        1.262,
+        1.9999999999999984
+      ],
+      "geometry": {
+        "type": "plane",
+        "width": 1,
+        "height": 1
+      },
+      "material": {
+        "type": "basic",
+        "color": "#fcfcfc",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "https://pub-c6558a20d27f4a0695f85e66e0e4eb76.r2.dev/3month-front.mp4"
+        },
+        "roughness": 1,
+        "normalScale": 1,
+        "metalness": 0,
+        "opacity": 1,
+        "emissiveIntensity": 0,
+        "blending": "normal",
+        "textureFiltering": "smooth",
+        "mipmaps": true,
+        "wrap": "repeat",
+        "wireframe": false,
+        "forceTransparent": false
+      },
+      "parentId": "2d8bf2ab-b3e6-495b-b505-a9ea9142a795",
+      "components": {
+        "4fc9647d-b16a-477e-9dc6-ceade3a67350": {
+          "id": "4fc9647d-b16a-477e-9dc6-ceade3a67350",
+          "name": "Video Controls UI - Image Target",
+          "parameters": {
+            "imageTargetName": "3-1",
+            "videoId": "3-1"
+          }
+        }
+      },
+      "name": "VideoPlane (4)",
+      "order": 1,
+      "shadow": {
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      "videoControls": {
+        "paused": true,
+        "loop": true
+      }
+    },
+    "82b596b9-ebd7-4192-89cd-ec942fa2e40e": {
+      "id": "82b596b9-ebd7-4192-89cd-ec942fa2e40e",
+      "position": [
+        0,
+        0,
+        0.001
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "d930fe28-b53f-4cc0-bacc-edaa7ba76c2a",
+      "components": {},
+      "ui": {
+        "type": "3d",
+        "width": 100,
+        "height": 100,
+        "background": "#000000",
+        "borderRadius": 0,
+        "flexDirection": "row",
+        "backgroundOpacity": 0.30000000000000004,
+        "padding": "10",
+        "gap": "6",
+        "alignItems": "center",
+        "justifyContent": "center"
+      },
+      "name": "Background (4)",
+      "order": 2,
+      "disabled": true
+    },
+    "a5a46504-18a5-438a-bc70-e7836234c879": {
+      "id": "a5a46504-18a5-438a-bc70-e7836234c879",
+      "position": [
+        -0.323,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "82b596b9-ebd7-4192-89cd-ec942fa2e40e",
+      "components": {},
+      "name": "Icon (4)",
+      "ui": {
+        "width": 16,
+        "height": 16,
+        "image": {
+          "type": "asset",
+          "asset": "assets/icons/pause-button.png"
+        },
+        "backgroundOpacity": 1,
+        "backgroundSize": "contain"
+      },
+      "order": 3
+    },
+    "b443933c-337e-4b08-9bf8-966d44560898": {
+      "id": "b443933c-337e-4b08-9bf8-966d44560898",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "name": "3-2",
+      "imageTarget": {
+        "name": "3-2"
+      },
+      "order": 16.30050986965074,
+      "parentId": "07e9f7e1-ea77-4843-aacf-7ecf382ae061"
+    },
+    "6ee3866f-ce53-4376-9782-04425486ea99": {
+      "id": "6ee3866f-ce53-4376-9782-04425486ea99",
+      "position": [
+        5.412368730363689e-16,
+        0.07979387610490551,
+        0.918
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        0.96,
+        1.262,
+        1.9999999999999984
+      ],
+      "geometry": {
+        "type": "plane",
+        "width": 1,
+        "height": 1
+      },
+      "material": {
+        "type": "basic",
+        "color": "#fcfcfc",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "https://pub-c6558a20d27f4a0695f85e66e0e4eb76.r2.dev/3month-back.mp4"
+        },
+        "roughness": 1,
+        "normalScale": 1,
+        "metalness": 0,
+        "opacity": 1,
+        "emissiveIntensity": 0,
+        "blending": "normal",
+        "textureFiltering": "smooth",
+        "mipmaps": true,
+        "wrap": "repeat",
+        "wireframe": false,
+        "forceTransparent": false
+      },
+      "parentId": "b443933c-337e-4b08-9bf8-966d44560898",
+      "components": {
+        "4fc9647d-b16a-477e-9dc6-ceade3a67350": {
+          "id": "4fc9647d-b16a-477e-9dc6-ceade3a67350",
+          "name": "Video Controls UI - Image Target",
+          "parameters": {
+            "imageTargetName": "3-2",
+            "videoId": "3-2"
+          }
+        }
+      },
+      "name": "VideoPlane (5)",
+      "order": 1,
+      "shadow": {
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      "videoControls": {
+        "paused": true,
+        "loop": true
+      }
+    },
+    "6bc3294b-0b98-4c58-8708-393f423e39de": {
+      "id": "6bc3294b-0b98-4c58-8708-393f423e39de",
+      "position": [
+        0,
+        0,
+        0.001
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "6ee3866f-ce53-4376-9782-04425486ea99",
+      "components": {},
+      "ui": {
+        "type": "3d",
+        "width": 100,
+        "height": 100,
+        "background": "#000000",
+        "borderRadius": 0,
+        "flexDirection": "row",
+        "backgroundOpacity": 0.30000000000000004,
+        "padding": "10",
+        "gap": "6",
+        "alignItems": "center",
+        "justifyContent": "center"
+      },
+      "name": "Background (5)",
+      "order": 2,
+      "disabled": true
+    },
+    "42be99fa-aa79-42a3-b543-89d1d249fdfe": {
+      "id": "42be99fa-aa79-42a3-b543-89d1d249fdfe",
+      "position": [
+        -0.323,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "6bc3294b-0b98-4c58-8708-393f423e39de",
+      "components": {},
+      "name": "Icon (5)",
+      "ui": {
+        "width": 16,
+        "height": 16,
+        "image": {
+          "type": "asset",
+          "asset": "assets/icons/pause-button.png"
+        },
+        "backgroundOpacity": 1,
+        "backgroundSize": "contain"
+      },
+      "order": 3
+    },
+    "8074cf9b-573e-45ea-a3ba-8aba34a70a7d": {
+      "id": "8074cf9b-573e-45ea-a3ba-8aba34a70a7d",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "name": "4-1",
+      "imageTarget": {
+        "name": "4-1"
+      },
+      "order": 18.1149607824394,
+      "parentId": "07e9f7e1-ea77-4843-aacf-7ecf382ae061"
+    },
+    "029c1f1e-4d37-45e8-af6b-0175ad0d4c29": {
+      "id": "029c1f1e-4d37-45e8-af6b-0175ad0d4c29",
+      "position": [
+        5.412368730363689e-16,
+        0.07979387610490551,
+        0.918
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        0.96,
+        1.262,
+        1.9999999999999984
+      ],
+      "geometry": {
+        "type": "plane",
+        "width": 1,
+        "height": 1
+      },
+      "material": {
+        "type": "basic",
+        "color": "#fcfcfc",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "https://pub-c6558a20d27f4a0695f85e66e0e4eb76.r2.dev/4month-front.mp4"
+        },
+        "roughness": 1,
+        "normalScale": 1,
+        "metalness": 0,
+        "opacity": 1,
+        "emissiveIntensity": 0,
+        "blending": "normal",
+        "textureFiltering": "smooth",
+        "mipmaps": true,
+        "wrap": "repeat",
+        "wireframe": false,
+        "forceTransparent": false
+      },
+      "parentId": "8074cf9b-573e-45ea-a3ba-8aba34a70a7d",
+      "components": {
+        "4fc9647d-b16a-477e-9dc6-ceade3a67350": {
+          "id": "4fc9647d-b16a-477e-9dc6-ceade3a67350",
+          "name": "Video Controls UI - Image Target",
+          "parameters": {
+            "imageTargetName": "4-1",
+            "videoId": "4-1"
+          }
+        }
+      },
+      "name": "VideoPlane (6)",
+      "order": 1,
+      "shadow": {
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      "videoControls": {
+        "paused": true,
+        "loop": true
+      }
+    },
+    "2feacdfe-701a-45b5-b42e-b97191142eb4": {
+      "id": "2feacdfe-701a-45b5-b42e-b97191142eb4",
+      "position": [
+        0,
+        0,
+        0.001
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "029c1f1e-4d37-45e8-af6b-0175ad0d4c29",
+      "components": {},
+      "ui": {
+        "type": "3d",
+        "width": 100,
+        "height": 100,
+        "background": "#000000",
+        "borderRadius": 0,
+        "flexDirection": "row",
+        "backgroundOpacity": 0.30000000000000004,
+        "padding": "10",
+        "gap": "6",
+        "alignItems": "center",
+        "justifyContent": "center"
+      },
+      "name": "Background (6)",
+      "order": 2,
+      "disabled": true
+    },
+    "6f0c49f5-fb13-49d7-8959-b5c5708fd2af": {
+      "id": "6f0c49f5-fb13-49d7-8959-b5c5708fd2af",
+      "position": [
+        -0.323,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "2feacdfe-701a-45b5-b42e-b97191142eb4",
+      "components": {},
+      "name": "Icon (6)",
+      "ui": {
+        "width": 16,
+        "height": 16,
+        "image": {
+          "type": "asset",
+          "asset": "assets/icons/pause-button.png"
+        },
+        "backgroundOpacity": 1,
+        "backgroundSize": "contain"
+      },
+      "order": 3
+    },
+    "2b8216b5-8d5c-4022-9c0e-bd1db54a7e19": {
+      "id": "2b8216b5-8d5c-4022-9c0e-bd1db54a7e19",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "name": "4-2",
+      "imageTarget": {
+        "name": "4-2"
+      },
+      "order": 19.149894846288248,
+      "parentId": "07e9f7e1-ea77-4843-aacf-7ecf382ae061"
+    },
+    "35e29ccd-da07-4c45-a929-5ebdd7ffbdae": {
+      "id": "35e29ccd-da07-4c45-a929-5ebdd7ffbdae",
+      "position": [
+        5.412368730363689e-16,
+        0.07979387610490551,
+        0.918
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        0.96,
+        1.262,
+        1.9999999999999984
+      ],
+      "geometry": {
+        "type": "plane",
+        "width": 1,
+        "height": 1
+      },
+      "material": {
+        "type": "basic",
+        "color": "#fcfcfc",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "https://pub-c6558a20d27f4a0695f85e66e0e4eb76.r2.dev/4month-back.mp4"
+        },
+        "roughness": 1,
+        "normalScale": 1,
+        "metalness": 0,
+        "opacity": 1,
+        "emissiveIntensity": 0,
+        "blending": "normal",
+        "textureFiltering": "smooth",
+        "mipmaps": true,
+        "wrap": "repeat",
+        "wireframe": false,
+        "forceTransparent": false
+      },
+      "parentId": "2b8216b5-8d5c-4022-9c0e-bd1db54a7e19",
+      "components": {
+        "4fc9647d-b16a-477e-9dc6-ceade3a67350": {
+          "id": "4fc9647d-b16a-477e-9dc6-ceade3a67350",
+          "name": "Video Controls UI - Image Target",
+          "parameters": {
+            "imageTargetName": "4-2",
+            "videoId": "4-2"
+          }
+        }
+      },
+      "name": "VideoPlane (7)",
+      "order": 1,
+      "shadow": {
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      "videoControls": {
+        "paused": true,
+        "loop": true
+      }
+    },
+    "3bf44f31-91ad-40d5-88b7-3bc708a5b77a": {
+      "id": "3bf44f31-91ad-40d5-88b7-3bc708a5b77a",
+      "position": [
+        0,
+        0,
+        0.001
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "35e29ccd-da07-4c45-a929-5ebdd7ffbdae",
+      "components": {},
+      "ui": {
+        "type": "3d",
+        "width": 100,
+        "height": 100,
+        "background": "#000000",
+        "borderRadius": 0,
+        "flexDirection": "row",
+        "backgroundOpacity": 0.30000000000000004,
+        "padding": "10",
+        "gap": "6",
+        "alignItems": "center",
+        "justifyContent": "center"
+      },
+      "name": "Background (7)",
+      "order": 2,
+      "disabled": true
+    },
+    "6a1f679b-5e27-45d5-879b-19ae4e746e92": {
+      "id": "6a1f679b-5e27-45d5-879b-19ae4e746e92",
+      "position": [
+        -0.323,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "3bf44f31-91ad-40d5-88b7-3bc708a5b77a",
+      "components": {},
+      "name": "Icon (7)",
+      "ui": {
+        "width": 16,
+        "height": 16,
+        "image": {
+          "type": "asset",
+          "asset": "assets/icons/pause-button.png"
+        },
+        "backgroundOpacity": 1,
+        "backgroundSize": "contain"
+      },
+      "order": 3
+    },
+    "849cf32a-9d2f-4c3c-bc95-1c01330536af": {
+      "id": "849cf32a-9d2f-4c3c-bc95-1c01330536af",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "name": "5-1",
+      "imageTarget": {
+        "name": "5-1"
+      },
+      "order": 20.641834391692164,
+      "parentId": "07e9f7e1-ea77-4843-aacf-7ecf382ae061"
+    },
+    "9ab67b52-eda8-4faa-88bc-df56bf9fe2c7": {
+      "id": "9ab67b52-eda8-4faa-88bc-df56bf9fe2c7",
+      "position": [
+        5.412368730363689e-16,
+        0.07979387610490551,
+        0.918
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        0.96,
+        1.262,
+        1.9999999999999984
+      ],
+      "geometry": {
+        "type": "plane",
+        "width": 1,
+        "height": 1
+      },
+      "material": {
+        "type": "basic",
+        "color": "#fcfcfc",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "https://pub-c6558a20d27f4a0695f85e66e0e4eb76.r2.dev/5month-front.mp4"
+        },
+        "roughness": 1,
+        "normalScale": 1,
+        "metalness": 0,
+        "opacity": 1,
+        "emissiveIntensity": 0,
+        "blending": "normal",
+        "textureFiltering": "smooth",
+        "mipmaps": true,
+        "wrap": "repeat",
+        "wireframe": false,
+        "forceTransparent": false
+      },
+      "parentId": "849cf32a-9d2f-4c3c-bc95-1c01330536af",
+      "components": {
+        "4fc9647d-b16a-477e-9dc6-ceade3a67350": {
+          "id": "4fc9647d-b16a-477e-9dc6-ceade3a67350",
+          "name": "Video Controls UI - Image Target",
+          "parameters": {
+            "imageTargetName": "5-1",
+            "videoId": "5-1"
+          }
+        }
+      },
+      "name": "VideoPlane (8)",
+      "order": 1,
+      "shadow": {
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      "videoControls": {
+        "paused": true,
+        "loop": true
+      }
+    },
+    "3f392ba6-874f-4805-a68a-9a5b8bdf3e85": {
+      "id": "3f392ba6-874f-4805-a68a-9a5b8bdf3e85",
+      "position": [
+        0,
+        0,
+        0.001
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "9ab67b52-eda8-4faa-88bc-df56bf9fe2c7",
+      "components": {},
+      "ui": {
+        "type": "3d",
+        "width": 100,
+        "height": 100,
+        "background": "#000000",
+        "borderRadius": 0,
+        "flexDirection": "row",
+        "backgroundOpacity": 0.30000000000000004,
+        "padding": "10",
+        "gap": "6",
+        "alignItems": "center",
+        "justifyContent": "center"
+      },
+      "name": "Background (8)",
+      "order": 2,
+      "disabled": true
+    },
+    "f75754f9-6fe2-48fa-b94c-e315bd63a717": {
+      "id": "f75754f9-6fe2-48fa-b94c-e315bd63a717",
+      "position": [
+        -0.323,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "3f392ba6-874f-4805-a68a-9a5b8bdf3e85",
+      "components": {},
+      "name": "Icon (8)",
+      "ui": {
+        "width": 16,
+        "height": 16,
+        "image": {
+          "type": "asset",
+          "asset": "assets/icons/pause-button.png"
+        },
+        "backgroundOpacity": 1,
+        "backgroundSize": "contain"
+      },
+      "order": 3
+    },
+    "41f84ccd-3193-4822-a94f-39e719bd4e4f": {
+      "id": "41f84ccd-3193-4822-a94f-39e719bd4e4f",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "name": "5-2",
+      "imageTarget": {
+        "name": "5-2"
+      },
+      "order": 22.43600030166673,
+      "parentId": "07e9f7e1-ea77-4843-aacf-7ecf382ae061"
+    },
+    "cda8371e-a4e4-479b-9b11-5c34d8b5afcd": {
+      "id": "cda8371e-a4e4-479b-9b11-5c34d8b5afcd",
+      "position": [
+        5.412368730363689e-16,
+        0.07979387610490551,
+        0.918
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        0.96,
+        1.262,
+        1.9999999999999984
+      ],
+      "geometry": {
+        "type": "plane",
+        "width": 1,
+        "height": 1
+      },
+      "material": {
+        "type": "basic",
+        "color": "#fcfcfc",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "https://pub-c6558a20d27f4a0695f85e66e0e4eb76.r2.dev/5month-back.mp4"
+        },
+        "roughness": 1,
+        "normalScale": 1,
+        "metalness": 0,
+        "opacity": 1,
+        "emissiveIntensity": 0,
+        "blending": "normal",
+        "textureFiltering": "smooth",
+        "mipmaps": true,
+        "wrap": "repeat",
+        "wireframe": false,
+        "forceTransparent": false
+      },
+      "parentId": "41f84ccd-3193-4822-a94f-39e719bd4e4f",
+      "components": {
+        "4fc9647d-b16a-477e-9dc6-ceade3a67350": {
+          "id": "4fc9647d-b16a-477e-9dc6-ceade3a67350",
+          "name": "Video Controls UI - Image Target",
+          "parameters": {
+            "imageTargetName": "5-2",
+            "videoId": "5-2"
+          }
+        }
+      },
+      "name": "VideoPlane (9)",
+      "order": 1,
+      "shadow": {
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      "videoControls": {
+        "paused": true,
+        "loop": true
+      }
+    },
+    "899ecf75-fc00-467b-a5a3-bf0794a0628d": {
+      "id": "899ecf75-fc00-467b-a5a3-bf0794a0628d",
+      "position": [
+        0,
+        0,
+        0.001
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "cda8371e-a4e4-479b-9b11-5c34d8b5afcd",
+      "components": {},
+      "ui": {
+        "type": "3d",
+        "width": 100,
+        "height": 100,
+        "background": "#000000",
+        "borderRadius": 0,
+        "flexDirection": "row",
+        "backgroundOpacity": 0.30000000000000004,
+        "padding": "10",
+        "gap": "6",
+        "alignItems": "center",
+        "justifyContent": "center"
+      },
+      "name": "Background (9)",
+      "order": 2,
+      "disabled": true
+    },
+    "082d6fb2-6e2f-42fe-b67f-8edc6a3cc060": {
+      "id": "082d6fb2-6e2f-42fe-b67f-8edc6a3cc060",
+      "position": [
+        -0.323,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "899ecf75-fc00-467b-a5a3-bf0794a0628d",
+      "components": {},
+      "name": "Icon (9)",
+      "ui": {
+        "width": 16,
+        "height": 16,
+        "image": {
+          "type": "asset",
+          "asset": "assets/icons/pause-button.png"
+        },
+        "backgroundOpacity": 1,
+        "backgroundSize": "contain"
+      },
+      "order": 3
+    },
+    "d213155b-2cbe-4aa0-b83f-10cec753978a": {
+      "id": "d213155b-2cbe-4aa0-b83f-10cec753978a",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "name": "6-1",
+      "imageTarget": {
+        "name": "6-1"
+      },
+      "order": 23.713198680091423,
+      "parentId": "07e9f7e1-ea77-4843-aacf-7ecf382ae061"
+    },
+    "6c74525d-6862-4bbb-934e-2a150d88081c": {
+      "id": "6c74525d-6862-4bbb-934e-2a150d88081c",
+      "position": [
+        5.412368730363689e-16,
+        0.07979387610490551,
+        0.918
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        0.96,
+        1.262,
+        1.9999999999999984
+      ],
+      "geometry": {
+        "type": "plane",
+        "width": 1,
+        "height": 1
+      },
+      "material": {
+        "type": "basic",
+        "color": "#fcfcfc",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "https://pub-c6558a20d27f4a0695f85e66e0e4eb76.r2.dev/6month-front.mp4"
+        },
+        "roughness": 1,
+        "normalScale": 1,
+        "metalness": 0,
+        "opacity": 1,
+        "emissiveIntensity": 0,
+        "blending": "normal",
+        "textureFiltering": "smooth",
+        "mipmaps": true,
+        "wrap": "repeat",
+        "wireframe": false,
+        "forceTransparent": false
+      },
+      "parentId": "d213155b-2cbe-4aa0-b83f-10cec753978a",
+      "components": {
+        "4fc9647d-b16a-477e-9dc6-ceade3a67350": {
+          "id": "4fc9647d-b16a-477e-9dc6-ceade3a67350",
+          "name": "Video Controls UI - Image Target",
+          "parameters": {
+            "imageTargetName": "6-1",
+            "videoId": "6-1"
+          }
+        }
+      },
+      "name": "VideoPlane (10)",
+      "order": 1,
+      "shadow": {
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      "videoControls": {
+        "paused": true,
+        "loop": true
+      }
+    },
+    "7442266d-0321-40eb-8900-c952838d81e6": {
+      "id": "7442266d-0321-40eb-8900-c952838d81e6",
+      "position": [
+        0,
+        0,
+        0.001
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "6c74525d-6862-4bbb-934e-2a150d88081c",
+      "components": {},
+      "ui": {
+        "type": "3d",
+        "width": 100,
+        "height": 100,
+        "background": "#000000",
+        "borderRadius": 0,
+        "flexDirection": "row",
+        "backgroundOpacity": 0.30000000000000004,
+        "padding": "10",
+        "gap": "6",
+        "alignItems": "center",
+        "justifyContent": "center"
+      },
+      "name": "Background (10)",
+      "order": 2,
+      "disabled": true
+    },
+    "64e55883-4c5f-4ede-84fb-18e40254f790": {
+      "id": "64e55883-4c5f-4ede-84fb-18e40254f790",
+      "position": [
+        -0.323,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "7442266d-0321-40eb-8900-c952838d81e6",
+      "components": {},
+      "name": "Icon (10)",
+      "ui": {
+        "width": 16,
+        "height": 16,
+        "image": {
+          "type": "asset",
+          "asset": "assets/icons/pause-button.png"
+        },
+        "backgroundOpacity": 1,
+        "backgroundSize": "contain"
+      },
+      "order": 3
+    },
+    "ffbe2ec6-e539-4a81-808e-a7d065d6b5fd": {
+      "id": "ffbe2ec6-e539-4a81-808e-a7d065d6b5fd",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "name": "6-2",
+      "imageTarget": {
+        "name": "6-2"
+      },
+      "order": 25.56386681205103,
+      "parentId": "07e9f7e1-ea77-4843-aacf-7ecf382ae061"
+    },
+    "e65cf238-7931-451a-b4a1-1ec8b62452ce": {
+      "id": "e65cf238-7931-451a-b4a1-1ec8b62452ce",
+      "position": [
+        5.412368730363689e-16,
+        0.07979387610490551,
+        0.918
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        0.96,
+        1.262,
+        1.9999999999999984
+      ],
+      "geometry": {
+        "type": "plane",
+        "width": 1,
+        "height": 1
+      },
+      "material": {
+        "type": "basic",
+        "color": "#fcfcfc",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "https://pub-c6558a20d27f4a0695f85e66e0e4eb76.r2.dev/6month-back.mp4"
+        },
+        "roughness": 1,
+        "normalScale": 1,
+        "metalness": 0,
+        "opacity": 1,
+        "emissiveIntensity": 0,
+        "blending": "normal",
+        "textureFiltering": "smooth",
+        "mipmaps": true,
+        "wrap": "repeat",
+        "wireframe": false,
+        "forceTransparent": false
+      },
+      "parentId": "ffbe2ec6-e539-4a81-808e-a7d065d6b5fd",
+      "components": {
+        "4fc9647d-b16a-477e-9dc6-ceade3a67350": {
+          "id": "4fc9647d-b16a-477e-9dc6-ceade3a67350",
+          "name": "Video Controls UI - Image Target",
+          "parameters": {
+            "imageTargetName": "6-2",
+            "videoId": "6-2"
+          }
+        }
+      },
+      "name": "VideoPlane (11)",
+      "order": 1,
+      "shadow": {
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      "videoControls": {
+        "paused": true,
+        "loop": true
+      }
+    },
+    "8ebf963e-70ed-49af-bbda-c3628e74e2f7": {
+      "id": "8ebf963e-70ed-49af-bbda-c3628e74e2f7",
+      "position": [
+        0,
+        0,
+        0.001
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "e65cf238-7931-451a-b4a1-1ec8b62452ce",
+      "components": {},
+      "ui": {
+        "type": "3d",
+        "width": 100,
+        "height": 100,
+        "background": "#000000",
+        "borderRadius": 0,
+        "flexDirection": "row",
+        "backgroundOpacity": 0.30000000000000004,
+        "padding": "10",
+        "gap": "6",
+        "alignItems": "center",
+        "justifyContent": "center"
+      },
+      "name": "Background (11)",
+      "order": 2,
+      "disabled": true
+    },
+    "6787ec56-d378-4077-bfe3-0d925a8fcca2": {
+      "id": "6787ec56-d378-4077-bfe3-0d925a8fcca2",
+      "position": [
+        -0.323,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "8ebf963e-70ed-49af-bbda-c3628e74e2f7",
+      "components": {},
+      "name": "Icon (11)",
+      "ui": {
+        "width": 16,
+        "height": 16,
+        "image": {
+          "type": "asset",
+          "asset": "assets/icons/pause-button.png"
+        },
+        "backgroundOpacity": 1,
+        "backgroundSize": "contain"
+      },
+      "order": 3
+    },
+    "999972ba-d2e2-48ca-b6f2-b15900ba33ad": {
+      "id": "999972ba-d2e2-48ca-b6f2-b15900ba33ad",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "name": "7-1",
+      "imageTarget": {
+        "name": "7-1"
+      },
+      "order": 27.055828536344755,
+      "parentId": "07e9f7e1-ea77-4843-aacf-7ecf382ae061"
+    },
+    "3e3b58bc-dba6-42c9-a8a1-109c5329916b": {
+      "id": "3e3b58bc-dba6-42c9-a8a1-109c5329916b",
+      "position": [
+        5.412368730363689e-16,
+        0.07979387610490551,
+        0.918
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        0.96,
+        1.262,
+        1.9999999999999984
+      ],
+      "geometry": {
+        "type": "plane",
+        "width": 1,
+        "height": 1
+      },
+      "material": {
+        "type": "basic",
+        "color": "#fcfcfc",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "https://pub-c6558a20d27f4a0695f85e66e0e4eb76.r2.dev/7month-front.mp4"
+        },
+        "roughness": 1,
+        "normalScale": 1,
+        "metalness": 0,
+        "opacity": 1,
+        "emissiveIntensity": 0,
+        "blending": "normal",
+        "textureFiltering": "smooth",
+        "mipmaps": true,
+        "wrap": "repeat",
+        "wireframe": false,
+        "forceTransparent": false
+      },
+      "parentId": "999972ba-d2e2-48ca-b6f2-b15900ba33ad",
+      "components": {
+        "4fc9647d-b16a-477e-9dc6-ceade3a67350": {
+          "id": "4fc9647d-b16a-477e-9dc6-ceade3a67350",
+          "name": "Video Controls UI - Image Target",
+          "parameters": {
+            "imageTargetName": "7-1",
+            "videoId": "7-1"
+          }
+        }
+      },
+      "name": "VideoPlane (12)",
+      "order": 1,
+      "shadow": {
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      "videoControls": {
+        "paused": true,
+        "loop": true
+      }
+    },
+    "9f09f777-0691-4fa1-8ba0-acc475dcbc91": {
+      "id": "9f09f777-0691-4fa1-8ba0-acc475dcbc91",
+      "position": [
+        0,
+        0,
+        0.001
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "3e3b58bc-dba6-42c9-a8a1-109c5329916b",
+      "components": {},
+      "ui": {
+        "type": "3d",
+        "width": 100,
+        "height": 100,
+        "background": "#000000",
+        "borderRadius": 0,
+        "flexDirection": "row",
+        "backgroundOpacity": 0.30000000000000004,
+        "padding": "10",
+        "gap": "6",
+        "alignItems": "center",
+        "justifyContent": "center"
+      },
+      "name": "Background (12)",
+      "order": 2,
+      "disabled": true
+    },
+    "913b210b-bdfe-49e6-97ef-f06328970a33": {
+      "id": "913b210b-bdfe-49e6-97ef-f06328970a33",
+      "position": [
+        -0.323,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "9f09f777-0691-4fa1-8ba0-acc475dcbc91",
+      "components": {},
+      "name": "Icon (12)",
+      "ui": {
+        "width": 16,
+        "height": 16,
+        "image": {
+          "type": "asset",
+          "asset": "assets/icons/pause-button.png"
+        },
+        "backgroundOpacity": 1,
+        "backgroundSize": "contain"
+      },
+      "order": 3
+    },
+    "bac21e62-d97f-423a-9f6b-2ddf6a3f344e": {
+      "id": "bac21e62-d97f-423a-9f6b-2ddf6a3f344e",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "name": "7-2",
+      "imageTarget": {
+        "name": "7-2"
+      },
+      "order": 27.547790260638475,
+      "parentId": "07e9f7e1-ea77-4843-aacf-7ecf382ae061"
+    },
+    "c3dd0296-dfbb-432b-988d-26c2b15df180": {
+      "id": "c3dd0296-dfbb-432b-988d-26c2b15df180",
+      "position": [
+        5.412368730363689e-16,
+        0.07979387610490551,
+        0.918
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        0.96,
+        1.262,
+        1.9999999999999984
+      ],
+      "geometry": {
+        "type": "plane",
+        "width": 1,
+        "height": 1
+      },
+      "material": {
+        "type": "basic",
+        "color": "#fcfcfc",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "https://pub-c6558a20d27f4a0695f85e66e0e4eb76.r2.dev/7month-back.mp4"
+        },
+        "roughness": 1,
+        "normalScale": 1,
+        "metalness": 0,
+        "opacity": 1,
+        "emissiveIntensity": 0,
+        "blending": "normal",
+        "textureFiltering": "smooth",
+        "mipmaps": true,
+        "wrap": "repeat",
+        "wireframe": false,
+        "forceTransparent": false
+      },
+      "parentId": "bac21e62-d97f-423a-9f6b-2ddf6a3f344e",
+      "components": {
+        "4fc9647d-b16a-477e-9dc6-ceade3a67350": {
+          "id": "4fc9647d-b16a-477e-9dc6-ceade3a67350",
+          "name": "Video Controls UI - Image Target",
+          "parameters": {
+            "imageTargetName": "7-2",
+            "videoId": "7-2"
+          }
+        }
+      },
+      "name": "VideoPlane (12)",
+      "order": 5,
+      "shadow": {
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      "videoControls": {
+        "paused": true,
+        "loop": true
+      }
+    },
+    "a9ce9a1d-ce77-4110-a51b-3efc5b3fe575": {
+      "id": "a9ce9a1d-ce77-4110-a51b-3efc5b3fe575",
+      "position": [
+        0,
+        0,
+        0.001
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "c3dd0296-dfbb-432b-988d-26c2b15df180",
+      "components": {},
+      "ui": {
+        "type": "3d",
+        "width": 100,
+        "height": 100,
+        "background": "#000000",
+        "borderRadius": 0,
+        "flexDirection": "row",
+        "backgroundOpacity": 0.30000000000000004,
+        "padding": "10",
+        "gap": "6",
+        "alignItems": "center",
+        "justifyContent": "center"
+      },
+      "name": "Background (12)",
+      "order": 6,
+      "disabled": true
+    },
+    "82908524-ccfc-4076-8229-3f7a2271bf71": {
+      "id": "82908524-ccfc-4076-8229-3f7a2271bf71",
+      "position": [
+        -0.323,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "a9ce9a1d-ce77-4110-a51b-3efc5b3fe575",
+      "components": {},
+      "name": "Icon (12)",
+      "ui": {
+        "width": 16,
+        "height": 16,
+        "image": {
+          "type": "asset",
+          "asset": "assets/icons/pause-button.png"
+        },
+        "backgroundOpacity": 1,
+        "backgroundSize": "contain"
+      },
+      "order": 7
+    },
+    "38562ae8-acf2-44a8-9513-77c2ff1ed7e0": {
+      "id": "38562ae8-acf2-44a8-9513-77c2ff1ed7e0",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "name": "8-1",
+      "imageTarget": {
+        "name": "8-1"
+      },
+      "order": 28.76291853272068,
+      "parentId": "07e9f7e1-ea77-4843-aacf-7ecf382ae061"
+    },
+    "12c7ebb9-d8b9-4ab1-b5d0-54e97bf70872": {
+      "id": "12c7ebb9-d8b9-4ab1-b5d0-54e97bf70872",
+      "position": [
+        5.412368730363689e-16,
+        0.07979387610490551,
+        0.918
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        0.96,
+        1.262,
+        1.9999999999999984
+      ],
+      "geometry": {
+        "type": "plane",
+        "width": 1,
+        "height": 1
+      },
+      "material": {
+        "type": "basic",
+        "color": "#fcfcfc",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "https://pub-c6558a20d27f4a0695f85e66e0e4eb76.r2.dev/8month-front.mp4"
+        },
+        "roughness": 1,
+        "normalScale": 1,
+        "metalness": 0,
+        "opacity": 1,
+        "emissiveIntensity": 0,
+        "blending": "normal",
+        "textureFiltering": "smooth",
+        "mipmaps": true,
+        "wrap": "repeat",
+        "wireframe": false,
+        "forceTransparent": false
+      },
+      "parentId": "38562ae8-acf2-44a8-9513-77c2ff1ed7e0",
+      "components": {
+        "4fc9647d-b16a-477e-9dc6-ceade3a67350": {
+          "id": "4fc9647d-b16a-477e-9dc6-ceade3a67350",
+          "name": "Video Controls UI - Image Target",
+          "parameters": {
+            "imageTargetName": "8-1",
+            "videoId": "8-1"
+          }
+        }
+      },
+      "name": "VideoPlane (13)",
+      "order": 1,
+      "shadow": {
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      "videoControls": {
+        "paused": true,
+        "loop": true
+      }
+    },
+    "d411a0a2-5898-4f2d-92d5-c0595350127f": {
+      "id": "d411a0a2-5898-4f2d-92d5-c0595350127f",
+      "position": [
+        0,
+        0,
+        0.001
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "12c7ebb9-d8b9-4ab1-b5d0-54e97bf70872",
+      "components": {},
+      "ui": {
+        "type": "3d",
+        "width": 100,
+        "height": 100,
+        "background": "#000000",
+        "borderRadius": 0,
+        "flexDirection": "row",
+        "backgroundOpacity": 0.30000000000000004,
+        "padding": "10",
+        "gap": "6",
+        "alignItems": "center",
+        "justifyContent": "center"
+      },
+      "name": "Background (13)",
+      "order": 2,
+      "disabled": true
+    },
+    "f4acf830-d81e-4ff3-8f45-e966ab72e217": {
+      "id": "f4acf830-d81e-4ff3-8f45-e966ab72e217",
+      "position": [
+        -0.323,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "d411a0a2-5898-4f2d-92d5-c0595350127f",
+      "components": {},
+      "name": "Icon (13)",
+      "ui": {
+        "width": 16,
+        "height": 16,
+        "image": {
+          "type": "asset",
+          "asset": "assets/icons/pause-button.png"
+        },
+        "backgroundOpacity": 1,
+        "backgroundSize": "contain"
+      },
+      "order": 3
+    },
+    "27858a79-8f63-4adb-afb8-5c22b23c6f13": {
+      "id": "27858a79-8f63-4adb-afb8-5c22b23c6f13",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "name": "8-2",
+      "imageTarget": {
+        "name": "8-2"
+      },
+      "order": 28.978046804802883,
+      "parentId": "07e9f7e1-ea77-4843-aacf-7ecf382ae061"
+    },
+    "6175e9f6-5156-4e1f-8efb-4354c88cb8c3": {
+      "id": "6175e9f6-5156-4e1f-8efb-4354c88cb8c3",
+      "position": [
+        5.412368730363689e-16,
+        0.07979387610490551,
+        0.918
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        0.96,
+        1.262,
+        1.9999999999999984
+      ],
+      "geometry": {
+        "type": "plane",
+        "width": 1,
+        "height": 1
+      },
+      "material": {
+        "type": "basic",
+        "color": "#fcfcfc",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "https://pub-c6558a20d27f4a0695f85e66e0e4eb76.r2.dev/8month-back.mp4"
+        },
+        "roughness": 1,
+        "normalScale": 1,
+        "metalness": 0,
+        "opacity": 1,
+        "emissiveIntensity": 0,
+        "blending": "normal",
+        "textureFiltering": "smooth",
+        "mipmaps": true,
+        "wrap": "repeat",
+        "wireframe": false,
+        "forceTransparent": false
+      },
+      "parentId": "27858a79-8f63-4adb-afb8-5c22b23c6f13",
+      "components": {
+        "4fc9647d-b16a-477e-9dc6-ceade3a67350": {
+          "id": "4fc9647d-b16a-477e-9dc6-ceade3a67350",
+          "name": "Video Controls UI - Image Target",
+          "parameters": {
+            "imageTargetName": "8-2",
+            "videoId": "8-2"
+          }
+        }
+      },
+      "name": "VideoPlane (13)",
+      "order": 5,
+      "shadow": {
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      "videoControls": {
+        "paused": true,
+        "loop": true
+      }
+    },
+    "da63c733-344f-4209-8b55-f798cf4d14f5": {
+      "id": "da63c733-344f-4209-8b55-f798cf4d14f5",
+      "position": [
+        0,
+        0,
+        0.001
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "6175e9f6-5156-4e1f-8efb-4354c88cb8c3",
+      "components": {},
+      "ui": {
+        "type": "3d",
+        "width": 100,
+        "height": 100,
+        "background": "#000000",
+        "borderRadius": 0,
+        "flexDirection": "row",
+        "backgroundOpacity": 0.30000000000000004,
+        "padding": "10",
+        "gap": "6",
+        "alignItems": "center",
+        "justifyContent": "center"
+      },
+      "name": "Background (13)",
+      "order": 6,
+      "disabled": true
+    },
+    "f9222ccc-05fa-4771-8ed0-3fe9223e8823": {
+      "id": "f9222ccc-05fa-4771-8ed0-3fe9223e8823",
+      "position": [
+        -0.323,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "da63c733-344f-4209-8b55-f798cf4d14f5",
+      "components": {},
+      "name": "Icon (13)",
+      "ui": {
+        "width": 16,
+        "height": 16,
+        "image": {
+          "type": "asset",
+          "asset": "assets/icons/pause-button.png"
+        },
+        "backgroundOpacity": 1,
+        "backgroundSize": "contain"
+      },
+      "order": 7
+    },
+    "27ca7fe5-1cf2-481d-a658-ed63d30d24aa": {
+      "id": "27ca7fe5-1cf2-481d-a658-ed63d30d24aa",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "name": "9-2",
+      "imageTarget": {
+        "name": "9-2"
+      },
+      "order": 29.40830334896729,
+      "parentId": "07e9f7e1-ea77-4843-aacf-7ecf382ae061"
+    },
+    "6f5b693e-158d-4302-84e9-ddee84e4d417": {
+      "id": "6f5b693e-158d-4302-84e9-ddee84e4d417",
+      "position": [
+        5.412368730363689e-16,
+        0.07979387610490551,
+        0.918
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        0.96,
+        1.262,
+        1.9999999999999984
+      ],
+      "geometry": {
+        "type": "plane",
+        "width": 1,
+        "height": 1
+      },
+      "material": {
+        "type": "basic",
+        "color": "#fcfcfc",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "https://pub-c6558a20d27f4a0695f85e66e0e4eb76.r2.dev/9month-back.mp4"
+        },
+        "roughness": 1,
+        "normalScale": 1,
+        "metalness": 0,
+        "opacity": 1,
+        "emissiveIntensity": 0,
+        "blending": "normal",
+        "textureFiltering": "smooth",
+        "mipmaps": true,
+        "wrap": "repeat",
+        "wireframe": false,
+        "forceTransparent": false
+      },
+      "parentId": "27ca7fe5-1cf2-481d-a658-ed63d30d24aa",
+      "components": {
+        "4fc9647d-b16a-477e-9dc6-ceade3a67350": {
+          "id": "4fc9647d-b16a-477e-9dc6-ceade3a67350",
+          "name": "Video Controls UI - Image Target",
+          "parameters": {
+            "imageTargetName": "9-2",
+            "videoId": "9-2"
+          }
+        }
+      },
+      "name": "VideoPlane (13)",
+      "order": 13,
+      "shadow": {
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      "videoControls": {
+        "paused": true,
+        "loop": true
+      }
+    },
+    "f56acedd-b566-4141-817f-f735933744c9": {
+      "id": "f56acedd-b566-4141-817f-f735933744c9",
+      "position": [
+        0,
+        0,
+        0.001
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "6f5b693e-158d-4302-84e9-ddee84e4d417",
+      "components": {},
+      "ui": {
+        "type": "3d",
+        "width": 100,
+        "height": 100,
+        "background": "#000000",
+        "borderRadius": 0,
+        "flexDirection": "row",
+        "backgroundOpacity": 0.30000000000000004,
+        "padding": "10",
+        "gap": "6",
+        "alignItems": "center",
+        "justifyContent": "center"
+      },
+      "name": "Background (13)",
+      "order": 14,
+      "disabled": true
+    },
+    "23bf00fc-232f-42d5-b9b0-028027b4f1e3": {
+      "id": "23bf00fc-232f-42d5-b9b0-028027b4f1e3",
+      "position": [
+        -0.323,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "f56acedd-b566-4141-817f-f735933744c9",
+      "components": {},
+      "name": "Icon (13)",
+      "ui": {
+        "width": 16,
+        "height": 16,
+        "image": {
+          "type": "asset",
+          "asset": "assets/icons/pause-button.png"
+        },
+        "backgroundOpacity": 1,
+        "backgroundSize": "contain"
+      },
+      "order": 15
+    },
+    "6b10f785-cac4-495c-b874-266cc8f66361": {
+      "id": "6b10f785-cac4-495c-b874-266cc8f66361",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "name": "9-1",
+      "imageTarget": {
+        "name": "9-1"
+      },
+      "order": 29.188967494212037,
+      "parentId": "07e9f7e1-ea77-4843-aacf-7ecf382ae061"
+    },
+    "7f63a4a0-656a-45d4-ac6e-bc8306e01c61": {
+      "id": "7f63a4a0-656a-45d4-ac6e-bc8306e01c61",
+      "position": [
+        5.412368730363689e-16,
+        0.07979387610490551,
+        0.918
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        0.96,
+        1.262,
+        1.9999999999999984
+      ],
+      "geometry": {
+        "type": "plane",
+        "width": 1,
+        "height": 1
+      },
+      "material": {
+        "type": "basic",
+        "color": "#fcfcfc",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "https://pub-c6558a20d27f4a0695f85e66e0e4eb76.r2.dev/9month-front.mp4"
+        },
+        "roughness": 1,
+        "normalScale": 1,
+        "metalness": 0,
+        "opacity": 1,
+        "emissiveIntensity": 0,
+        "blending": "normal",
+        "textureFiltering": "smooth",
+        "mipmaps": true,
+        "wrap": "repeat",
+        "wireframe": false,
+        "forceTransparent": false
+      },
+      "parentId": "6b10f785-cac4-495c-b874-266cc8f66361",
+      "components": {
+        "4fc9647d-b16a-477e-9dc6-ceade3a67350": {
+          "id": "4fc9647d-b16a-477e-9dc6-ceade3a67350",
+          "name": "Video Controls UI - Image Target",
+          "parameters": {
+            "imageTargetName": "9-1",
+            "videoId": "9-1"
+          }
+        }
+      },
+      "name": "VideoPlane (14)",
+      "order": 1,
+      "shadow": {
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      "videoControls": {
+        "paused": true,
+        "loop": true
+      }
+    },
+    "37caad7c-8b31-4613-a7ff-4c83bc55163b": {
+      "id": "37caad7c-8b31-4613-a7ff-4c83bc55163b",
+      "position": [
+        0,
+        0,
+        0.001
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "7f63a4a0-656a-45d4-ac6e-bc8306e01c61",
+      "components": {},
+      "ui": {
+        "type": "3d",
+        "width": 100,
+        "height": 100,
+        "background": "#000000",
+        "borderRadius": 0,
+        "flexDirection": "row",
+        "backgroundOpacity": 0.30000000000000004,
+        "padding": "10",
+        "gap": "6",
+        "alignItems": "center",
+        "justifyContent": "center"
+      },
+      "name": "Background (14)",
+      "order": 2,
+      "disabled": true
+    },
+    "4f2eb22a-bd90-4b9c-92a7-5df11e45b244": {
+      "id": "4f2eb22a-bd90-4b9c-92a7-5df11e45b244",
+      "position": [
+        -0.323,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "37caad7c-8b31-4613-a7ff-4c83bc55163b",
+      "components": {},
+      "name": "Icon (14)",
+      "ui": {
+        "width": 16,
+        "height": 16,
+        "image": {
+          "type": "asset",
+          "asset": "assets/icons/pause-button.png"
+        },
+        "backgroundOpacity": 1,
+        "backgroundSize": "contain"
+      },
+      "order": 3
+    },
+    "3d3bfbcc-d7cc-432b-8c04-0f6ed26cdf50": {
+      "id": "3d3bfbcc-d7cc-432b-8c04-0f6ed26cdf50",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "name": "10-1",
+      "imageTarget": {
+        "name": "10-1"
+      },
+      "order": 31.019138135236638,
+      "parentId": "07e9f7e1-ea77-4843-aacf-7ecf382ae061"
+    },
+    "eedbd34a-4c64-4a41-9d34-6f7fae3e33e9": {
+      "id": "eedbd34a-4c64-4a41-9d34-6f7fae3e33e9",
+      "position": [
+        5.412368730363689e-16,
+        0.07979387610490551,
+        0.918
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        0.96,
+        1.262,
+        1.9999999999999984
+      ],
+      "geometry": {
+        "type": "plane",
+        "width": 1,
+        "height": 1
+      },
+      "material": {
+        "type": "basic",
+        "color": "#fcfcfc",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "https://pub-c6558a20d27f4a0695f85e66e0e4eb76.r2.dev/10month-front.mp4"
+        },
+        "roughness": 1,
+        "normalScale": 1,
+        "metalness": 0,
+        "opacity": 1,
+        "emissiveIntensity": 0,
+        "blending": "normal",
+        "textureFiltering": "smooth",
+        "mipmaps": true,
+        "wrap": "repeat",
+        "wireframe": false,
+        "forceTransparent": false
+      },
+      "parentId": "3d3bfbcc-d7cc-432b-8c04-0f6ed26cdf50",
+      "components": {
+        "4fc9647d-b16a-477e-9dc6-ceade3a67350": {
+          "id": "4fc9647d-b16a-477e-9dc6-ceade3a67350",
+          "name": "Video Controls UI - Image Target",
+          "parameters": {
+            "imageTargetName": "10-1",
+            "videoId": "10-1"
+          }
+        }
+      },
+      "name": "VideoPlane (15)",
+      "order": 1,
+      "shadow": {
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      "videoControls": {
+        "paused": true,
+        "loop": true
+      }
+    },
+    "f2eb4811-4e14-4633-9f7e-483bf184231c": {
+      "id": "f2eb4811-4e14-4633-9f7e-483bf184231c",
+      "position": [
+        0,
+        0,
+        0.001
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "eedbd34a-4c64-4a41-9d34-6f7fae3e33e9",
+      "components": {},
+      "ui": {
+        "type": "3d",
+        "width": 100,
+        "height": 100,
+        "background": "#000000",
+        "borderRadius": 0,
+        "flexDirection": "row",
+        "backgroundOpacity": 0.30000000000000004,
+        "padding": "10",
+        "gap": "6",
+        "alignItems": "center",
+        "justifyContent": "center"
+      },
+      "name": "Background (15)",
+      "order": 2,
+      "disabled": true
+    },
+    "626d1f0e-558a-4eeb-958d-379b5dfc202a": {
+      "id": "626d1f0e-558a-4eeb-958d-379b5dfc202a",
+      "position": [
+        -0.323,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "f2eb4811-4e14-4633-9f7e-483bf184231c",
+      "components": {},
+      "name": "Icon (15)",
+      "ui": {
+        "width": 16,
+        "height": 16,
+        "image": {
+          "type": "asset",
+          "asset": "assets/icons/pause-button.png"
+        },
+        "backgroundOpacity": 1,
+        "backgroundSize": "contain"
+      },
+      "order": 3
+    },
+    "267fbcbb-85c1-4e12-b65e-d24111bf3048": {
+      "id": "267fbcbb-85c1-4e12-b65e-d24111bf3048",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "name": "10-2",
+      "imageTarget": {
+        "name": "10-2"
+      },
+      "order": 32.1206267249432,
+      "parentId": "07e9f7e1-ea77-4843-aacf-7ecf382ae061"
+    },
+    "992e82be-db12-4714-840d-0c845d384d04": {
+      "id": "992e82be-db12-4714-840d-0c845d384d04",
+      "position": [
+        5.412368730363689e-16,
+        0.07979387610490551,
+        0.918
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        0.96,
+        1.262,
+        1.9999999999999984
+      ],
+      "geometry": {
+        "type": "plane",
+        "width": 1,
+        "height": 1
+      },
+      "material": {
+        "type": "basic",
+        "color": "#fcfcfc",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "https://pub-c6558a20d27f4a0695f85e66e0e4eb76.r2.dev/10month-back.mp4"
+        },
+        "roughness": 1,
+        "normalScale": 1,
+        "metalness": 0,
+        "opacity": 1,
+        "emissiveIntensity": 0,
+        "blending": "normal",
+        "textureFiltering": "smooth",
+        "mipmaps": true,
+        "wrap": "repeat",
+        "wireframe": false,
+        "forceTransparent": false
+      },
+      "parentId": "267fbcbb-85c1-4e12-b65e-d24111bf3048",
+      "components": {
+        "4fc9647d-b16a-477e-9dc6-ceade3a67350": {
+          "id": "4fc9647d-b16a-477e-9dc6-ceade3a67350",
+          "name": "Video Controls UI - Image Target",
+          "parameters": {
+            "imageTargetName": "10-2",
+            "videoId": "10-2"
+          }
+        }
+      },
+      "name": "VideoPlane (16)",
+      "order": 1,
+      "shadow": {
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      "videoControls": {
+        "paused": true,
+        "loop": true
+      }
+    },
+    "5952ef1b-0c0a-403a-9c12-ab3a3ed8c609": {
+      "id": "5952ef1b-0c0a-403a-9c12-ab3a3ed8c609",
+      "position": [
+        0,
+        0,
+        0.001
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "992e82be-db12-4714-840d-0c845d384d04",
+      "components": {},
+      "ui": {
+        "type": "3d",
+        "width": 100,
+        "height": 100,
+        "background": "#000000",
+        "borderRadius": 0,
+        "flexDirection": "row",
+        "backgroundOpacity": 0.30000000000000004,
+        "padding": "10",
+        "gap": "6",
+        "alignItems": "center",
+        "justifyContent": "center"
+      },
+      "name": "Background (16)",
+      "order": 2,
+      "disabled": true
+    },
+    "817b0991-5c67-4c75-bbc2-817bad22601b": {
+      "id": "817b0991-5c67-4c75-bbc2-817bad22601b",
+      "position": [
+        -0.323,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "5952ef1b-0c0a-403a-9c12-ab3a3ed8c609",
+      "components": {},
+      "name": "Icon (16)",
+      "ui": {
+        "width": 16,
+        "height": 16,
+        "image": {
+          "type": "asset",
+          "asset": "assets/icons/pause-button.png"
+        },
+        "backgroundOpacity": 1,
+        "backgroundSize": "contain"
+      },
+      "order": 3
+    },
+    "449d87fe-15ee-44b9-8fe3-ae6c5608931c": {
+      "id": "449d87fe-15ee-44b9-8fe3-ae6c5608931c",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "name": "11-1",
+      "imageTarget": {
+        "name": "11-1"
+      },
+      "order": 33.57913085602721,
+      "parentId": "07e9f7e1-ea77-4843-aacf-7ecf382ae061"
+    },
+    "04f4eb80-7e14-4b65-9146-aaffdc9b0b92": {
+      "id": "04f4eb80-7e14-4b65-9146-aaffdc9b0b92",
+      "position": [
+        5.412368730363689e-16,
+        0.07979387610490551,
+        0.918
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        0.96,
+        1.262,
+        1.9999999999999984
+      ],
+      "geometry": {
+        "type": "plane",
+        "width": 1,
+        "height": 1
+      },
+      "material": {
+        "type": "basic",
+        "color": "#fcfcfc",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "https://pub-c6558a20d27f4a0695f85e66e0e4eb76.r2.dev/11month-front.mp4"
+        },
+        "roughness": 1,
+        "normalScale": 1,
+        "metalness": 0,
+        "opacity": 1,
+        "emissiveIntensity": 0,
+        "blending": "normal",
+        "textureFiltering": "smooth",
+        "mipmaps": true,
+        "wrap": "repeat",
+        "wireframe": false,
+        "forceTransparent": false
+      },
+      "parentId": "449d87fe-15ee-44b9-8fe3-ae6c5608931c",
+      "components": {
+        "4fc9647d-b16a-477e-9dc6-ceade3a67350": {
+          "id": "4fc9647d-b16a-477e-9dc6-ceade3a67350",
+          "name": "Video Controls UI - Image Target",
+          "parameters": {
+            "imageTargetName": "11-1",
+            "videoId": "11-1"
+          }
+        }
+      },
+      "name": "VideoPlane (17)",
+      "order": 1,
+      "shadow": {
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      "videoControls": {
+        "paused": true,
+        "loop": true
+      }
+    },
+    "98532d13-916c-4050-bb64-06bc5b3f9092": {
+      "id": "98532d13-916c-4050-bb64-06bc5b3f9092",
+      "position": [
+        0,
+        0,
+        0.001
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "04f4eb80-7e14-4b65-9146-aaffdc9b0b92",
+      "components": {},
+      "ui": {
+        "type": "3d",
+        "width": 100,
+        "height": 100,
+        "background": "#000000",
+        "borderRadius": 0,
+        "flexDirection": "row",
+        "backgroundOpacity": 0.30000000000000004,
+        "padding": "10",
+        "gap": "6",
+        "alignItems": "center",
+        "justifyContent": "center"
+      },
+      "name": "Background (17)",
+      "order": 2,
+      "disabled": true
+    },
+    "e2ad410f-89c9-46b9-911f-5d457efa81f9": {
+      "id": "e2ad410f-89c9-46b9-911f-5d457efa81f9",
+      "position": [
+        -0.323,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "98532d13-916c-4050-bb64-06bc5b3f9092",
+      "components": {},
+      "name": "Icon (17)",
+      "ui": {
+        "width": 16,
+        "height": 16,
+        "image": {
+          "type": "asset",
+          "asset": "assets/icons/pause-button.png"
+        },
+        "backgroundOpacity": 1,
+        "backgroundSize": "contain"
+      },
+      "order": 3
+    },
+    "e360d4df-40bf-4804-814c-7cc39c985ba3": {
+      "id": "e360d4df-40bf-4804-814c-7cc39c985ba3",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "name": "11-2",
+      "imageTarget": {
+        "name": "11-2"
+      },
+      "order": 35.42267554392994,
+      "parentId": "07e9f7e1-ea77-4843-aacf-7ecf382ae061"
+    },
+    "e5e0f0b9-b328-488f-8097-bc1ad0792813": {
+      "id": "e5e0f0b9-b328-488f-8097-bc1ad0792813",
+      "position": [
+        5.412368730363689e-16,
+        0.07979387610490551,
+        0.918
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        0.96,
+        1.262,
+        1.9999999999999984
+      ],
+      "geometry": {
+        "type": "plane",
+        "width": 1,
+        "height": 1
+      },
+      "material": {
+        "type": "basic",
+        "color": "#fcfcfc",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "https://pub-c6558a20d27f4a0695f85e66e0e4eb76.r2.dev/11month-back.mp4"
+        },
+        "roughness": 1,
+        "normalScale": 1,
+        "metalness": 0,
+        "opacity": 1,
+        "emissiveIntensity": 0,
+        "blending": "normal",
+        "textureFiltering": "smooth",
+        "mipmaps": true,
+        "wrap": "repeat",
+        "wireframe": false,
+        "forceTransparent": false
+      },
+      "parentId": "e360d4df-40bf-4804-814c-7cc39c985ba3",
+      "components": {
+        "4fc9647d-b16a-477e-9dc6-ceade3a67350": {
+          "id": "4fc9647d-b16a-477e-9dc6-ceade3a67350",
+          "name": "Video Controls UI - Image Target",
+          "parameters": {
+            "imageTargetName": "11-2",
+            "videoId": "11-2"
+          }
+        }
+      },
+      "name": "VideoPlane (18)",
+      "order": 1,
+      "shadow": {
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      "videoControls": {
+        "paused": true,
+        "loop": true
+      }
+    },
+    "7383d426-e8ee-46d8-b5a5-27d8dfa8168d": {
+      "id": "7383d426-e8ee-46d8-b5a5-27d8dfa8168d",
+      "position": [
+        0,
+        0,
+        0.001
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "e5e0f0b9-b328-488f-8097-bc1ad0792813",
+      "components": {},
+      "ui": {
+        "type": "3d",
+        "width": 100,
+        "height": 100,
+        "background": "#000000",
+        "borderRadius": 0,
+        "flexDirection": "row",
+        "backgroundOpacity": 0.30000000000000004,
+        "padding": "10",
+        "gap": "6",
+        "alignItems": "center",
+        "justifyContent": "center"
+      },
+      "name": "Background (18)",
+      "order": 2,
+      "disabled": true
+    },
+    "b7ea04df-37d5-4f7a-9e86-fc9b010d1153": {
+      "id": "b7ea04df-37d5-4f7a-9e86-fc9b010d1153",
+      "position": [
+        -0.323,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "7383d426-e8ee-46d8-b5a5-27d8dfa8168d",
+      "components": {},
+      "name": "Icon (18)",
+      "ui": {
+        "width": 16,
+        "height": 16,
+        "image": {
+          "type": "asset",
+          "asset": "assets/icons/pause-button.png"
+        },
+        "backgroundOpacity": 1,
+        "backgroundSize": "contain"
+      },
+      "order": 3
+    },
+    "87c839fb-5be2-44c5-892e-1c9dff8c9535": {
+      "id": "87c839fb-5be2-44c5-892e-1c9dff8c9535",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "name": "12-1",
+      "imageTarget": {
+        "name": "12-1"
+      },
+      "order": 37.248317283717626,
+      "parentId": "07e9f7e1-ea77-4843-aacf-7ecf382ae061"
+    },
+    "2a9b351a-bdf8-4833-8cec-143be5b17c83": {
+      "id": "2a9b351a-bdf8-4833-8cec-143be5b17c83",
+      "position": [
+        5.412368730363689e-16,
+        0.07979387610490551,
+        0.918
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        0.96,
+        1.262,
+        1.9999999999999984
+      ],
+      "geometry": {
+        "type": "plane",
+        "width": 1,
+        "height": 1
+      },
+      "material": {
+        "type": "basic",
+        "color": "#fcfcfc",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "https://pub-c6558a20d27f4a0695f85e66e0e4eb76.r2.dev/12month-front.mp4"
+        },
+        "roughness": 1,
+        "normalScale": 1,
+        "metalness": 0,
+        "opacity": 1,
+        "emissiveIntensity": 0,
+        "blending": "normal",
+        "textureFiltering": "smooth",
+        "mipmaps": true,
+        "wrap": "repeat",
+        "wireframe": false,
+        "forceTransparent": false
+      },
+      "parentId": "87c839fb-5be2-44c5-892e-1c9dff8c9535",
+      "components": {
+        "4fc9647d-b16a-477e-9dc6-ceade3a67350": {
+          "id": "4fc9647d-b16a-477e-9dc6-ceade3a67350",
+          "name": "Video Controls UI - Image Target",
+          "parameters": {
+            "imageTargetName": "12-1",
+            "videoId": "12-1"
+          }
+        }
+      },
+      "name": "VideoPlane (19)",
+      "order": 1,
+      "shadow": {
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      "videoControls": {
+        "paused": true,
+        "loop": true
+      }
+    },
+    "664b16f7-caa2-4451-a779-37c0c8363a2f": {
+      "id": "664b16f7-caa2-4451-a779-37c0c8363a2f",
+      "position": [
+        0,
+        0,
+        0.001
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "2a9b351a-bdf8-4833-8cec-143be5b17c83",
+      "components": {},
+      "ui": {
+        "type": "3d",
+        "width": 100,
+        "height": 100,
+        "background": "#000000",
+        "borderRadius": 0,
+        "flexDirection": "row",
+        "backgroundOpacity": 0.30000000000000004,
+        "padding": "10",
+        "gap": "6",
+        "alignItems": "center",
+        "justifyContent": "center"
+      },
+      "name": "Background (19)",
+      "order": 2,
+      "disabled": true
+    },
+    "ced5a60c-ae0a-4ff4-bb7d-4fa9766334fa": {
+      "id": "ced5a60c-ae0a-4ff4-bb7d-4fa9766334fa",
+      "position": [
+        -0.323,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "664b16f7-caa2-4451-a779-37c0c8363a2f",
+      "components": {},
+      "name": "Icon (19)",
+      "ui": {
+        "width": 16,
+        "height": 16,
+        "image": {
+          "type": "asset",
+          "asset": "assets/icons/pause-button.png"
+        },
+        "backgroundOpacity": 1,
+        "backgroundSize": "contain"
+      },
+      "order": 3
+    },
+    "8a8bf778-2a3b-4662-a500-b7ecdffb837c": {
+      "id": "8a8bf778-2a3b-4662-a500-b7ecdffb837c",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "name": "12-2",
+      "imageTarget": {
+        "name": "12-2"
+      },
+      "order": 38.5388604081955,
+      "parentId": "07e9f7e1-ea77-4843-aacf-7ecf382ae061"
+    },
+    "98fe579c-12c3-49ca-8224-911e48e919e5": {
+      "id": "98fe579c-12c3-49ca-8224-911e48e919e5",
+      "position": [
+        5.412368730363689e-16,
+        0.07979387610490551,
+        0.918
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        0.96,
+        1.262,
+        1.9999999999999984
+      ],
+      "geometry": {
+        "type": "plane",
+        "width": 1,
+        "height": 1
+      },
+      "material": {
+        "type": "basic",
+        "color": "#fcfcfc",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "https://pub-c6558a20d27f4a0695f85e66e0e4eb76.r2.dev/12month-back.mp4"
+        },
+        "roughness": 1,
+        "normalScale": 1,
+        "metalness": 0,
+        "opacity": 1,
+        "emissiveIntensity": 0,
+        "blending": "normal",
+        "textureFiltering": "smooth",
+        "mipmaps": true,
+        "wrap": "repeat",
+        "wireframe": false,
+        "forceTransparent": false
+      },
+      "parentId": "8a8bf778-2a3b-4662-a500-b7ecdffb837c",
+      "components": {
+        "4fc9647d-b16a-477e-9dc6-ceade3a67350": {
+          "id": "4fc9647d-b16a-477e-9dc6-ceade3a67350",
+          "name": "Video Controls UI - Image Target",
+          "parameters": {
+            "imageTargetName": "12-2",
+            "videoId": "12-2"
+          }
+        }
+      },
+      "name": "VideoPlane (20)",
+      "order": 1,
+      "shadow": {
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      "videoControls": {
+        "paused": true,
+        "loop": true
+      }
+    },
+    "b0610b9f-0691-4925-b9dc-104264b91cb6": {
+      "id": "b0610b9f-0691-4925-b9dc-104264b91cb6",
+      "position": [
+        0,
+        0,
+        0.001
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "98fe579c-12c3-49ca-8224-911e48e919e5",
+      "components": {},
+      "ui": {
+        "type": "3d",
+        "width": 100,
+        "height": 100,
+        "background": "#000000",
+        "borderRadius": 0,
+        "flexDirection": "row",
+        "backgroundOpacity": 0.30000000000000004,
+        "padding": "10",
+        "gap": "6",
+        "alignItems": "center",
+        "justifyContent": "center"
+      },
+      "name": "Background (20)",
+      "order": 2,
+      "disabled": true
+    },
+    "19ea07c6-06e7-4daa-8ffb-42fc8e668968": {
+      "id": "19ea07c6-06e7-4daa-8ffb-42fc8e668968",
+      "position": [
+        -0.323,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "b0610b9f-0691-4925-b9dc-104264b91cb6",
+      "components": {},
+      "name": "Icon (20)",
+      "ui": {
+        "width": 16,
+        "height": 16,
+        "image": {
+          "type": "asset",
+          "asset": "assets/icons/pause-button.png"
+        },
+        "backgroundOpacity": 1,
+        "backgroundSize": "contain"
+      },
+      "order": 3
+    },
+    "f01ba50a-343d-44ee-80db-2b43165f9d8e": {
+      "id": "f01ba50a-343d-44ee-80db-2b43165f9d8e",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "name": "meeting",
+      "imageTarget": {
+        "name": "meeting"
+      },
+      "order": 40.10820581113634,
+      "parentId": "07e9f7e1-ea77-4843-aacf-7ecf382ae061"
+    },
+    "c40ae76b-1423-472d-892a-584e440753f9": {
+      "id": "c40ae76b-1423-472d-892a-584e440753f9",
+      "position": [
+        5.412368730363689e-16,
+        0.07979387610490551,
+        0.918
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        0.96,
+        1.262,
+        1.9999999999999984
+      ],
+      "geometry": {
+        "type": "plane",
+        "width": 1,
+        "height": 1
+      },
+      "material": {
+        "type": "basic",
+        "color": "#fcfcfc",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "https://pub-c6558a20d27f4a0695f85e66e0e4eb76.r2.dev/meeting.mp4"
+        },
+        "roughness": 1,
+        "normalScale": 1,
+        "metalness": 0,
+        "opacity": 1,
+        "emissiveIntensity": 0,
+        "blending": "normal",
+        "textureFiltering": "smooth",
+        "mipmaps": true,
+        "wrap": "repeat",
+        "wireframe": false,
+        "forceTransparent": false
+      },
+      "parentId": "f01ba50a-343d-44ee-80db-2b43165f9d8e",
+      "components": {
+        "4fc9647d-b16a-477e-9dc6-ceade3a67350": {
+          "id": "4fc9647d-b16a-477e-9dc6-ceade3a67350",
+          "name": "Video Controls UI - Image Target",
+          "parameters": {
+            "imageTargetName": "meeting",
+            "videoId": "meeting"
+          }
+        }
+      },
+      "name": "VideoPlane (21)",
+      "order": 1,
+      "shadow": {
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      "videoControls": {
+        "paused": true,
+        "loop": true
+      }
+    },
+    "aaebfa3e-b037-471c-996a-e7b831c4185a": {
+      "id": "aaebfa3e-b037-471c-996a-e7b831c4185a",
+      "position": [
+        0,
+        0,
+        0.001
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "c40ae76b-1423-472d-892a-584e440753f9",
+      "components": {},
+      "ui": {
+        "type": "3d",
+        "width": 100,
+        "height": 100,
+        "background": "#000000",
+        "borderRadius": 0,
+        "flexDirection": "row",
+        "backgroundOpacity": 0.30000000000000004,
+        "padding": "10",
+        "gap": "6",
+        "alignItems": "center",
+        "justifyContent": "center"
+      },
+      "name": "Background (21)",
+      "order": 2,
+      "disabled": true
+    },
+    "0c0608fb-4f30-4381-ab7b-e637f8dfa5d9": {
+      "id": "0c0608fb-4f30-4381-ab7b-e637f8dfa5d9",
+      "position": [
+        -0.323,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "aaebfa3e-b037-471c-996a-e7b831c4185a",
+      "components": {},
+      "name": "Icon (21)",
+      "ui": {
+        "width": 16,
+        "height": 16,
+        "image": {
+          "type": "asset",
+          "asset": "assets/icons/pause-button.png"
+        },
+        "backgroundOpacity": 1,
+        "backgroundSize": "contain"
+      },
+      "order": 3
+    },
+    "1e5ac26d-ff12-40e1-8a45-b7c806451d33": {
+      "id": "1e5ac26d-ff12-40e1-8a45-b7c806451d33",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "name": "eating",
+      "imageTarget": {
+        "name": "eating"
+      },
+      "order": 41.84805689053505,
+      "parentId": "07e9f7e1-ea77-4843-aacf-7ecf382ae061"
+    },
+    "08e06bc3-7cd7-4eec-aecb-45fcee6a9995": {
+      "id": "08e06bc3-7cd7-4eec-aecb-45fcee6a9995",
+      "position": [
+        5.412368730363689e-16,
+        0.07979387610490551,
+        0.918
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        0.96,
+        1.262,
+        1.9999999999999984
+      ],
+      "geometry": {
+        "type": "plane",
+        "width": 1,
+        "height": 1
+      },
+      "material": {
+        "type": "basic",
+        "color": "#fcfcfc",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "https://pub-c6558a20d27f4a0695f85e66e0e4eb76.r2.dev/eating.mp4"
+        },
+        "roughness": 1,
+        "normalScale": 1,
+        "metalness": 0,
+        "opacity": 1,
+        "emissiveIntensity": 0,
+        "blending": "normal",
+        "textureFiltering": "smooth",
+        "mipmaps": true,
+        "wrap": "repeat",
+        "wireframe": false,
+        "forceTransparent": false
+      },
+      "parentId": "1e5ac26d-ff12-40e1-8a45-b7c806451d33",
+      "components": {
+        "4fc9647d-b16a-477e-9dc6-ceade3a67350": {
+          "id": "4fc9647d-b16a-477e-9dc6-ceade3a67350",
+          "name": "Video Controls UI - Image Target",
+          "parameters": {
+            "imageTargetName": "eating",
+            "videoId": "eating"
+          }
+        }
+      },
+      "name": "VideoPlane (22)",
+      "order": 1,
+      "shadow": {
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      "videoControls": {
+        "paused": true,
+        "loop": true
+      }
+    },
+    "25c42c64-5eb3-4019-9bde-edd0d869c3d6": {
+      "id": "25c42c64-5eb3-4019-9bde-edd0d869c3d6",
+      "position": [
+        0,
+        0,
+        0.001
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "08e06bc3-7cd7-4eec-aecb-45fcee6a9995",
+      "components": {},
+      "ui": {
+        "type": "3d",
+        "width": 100,
+        "height": 100,
+        "background": "#000000",
+        "borderRadius": 0,
+        "flexDirection": "row",
+        "backgroundOpacity": 0.30000000000000004,
+        "padding": "10",
+        "gap": "6",
+        "alignItems": "center",
+        "justifyContent": "center"
+      },
+      "name": "Background (22)",
+      "order": 2,
+      "disabled": true
+    },
+    "e1c04c08-46b8-4626-b15f-75d4ae22c12b": {
+      "id": "e1c04c08-46b8-4626-b15f-75d4ae22c12b",
+      "position": [
+        -0.323,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "25c42c64-5eb3-4019-9bde-edd0d869c3d6",
+      "components": {},
+      "name": "Icon (22)",
+      "ui": {
+        "width": 16,
+        "height": 16,
+        "image": {
+          "type": "asset",
+          "asset": "assets/icons/pause-button.png"
+        },
+        "backgroundOpacity": 1,
+        "backgroundSize": "contain"
+      },
+      "order": 3
+    },
+    "5acc9e92-162a-4f94-8960-f08db573dca2": {
+      "id": "5acc9e92-162a-4f94-8960-f08db573dca2",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "name": "vacation",
+      "imageTarget": {
+        "name": "vacation"
+      },
+      "order": 43.073079622775,
+      "parentId": "07e9f7e1-ea77-4843-aacf-7ecf382ae061"
+    },
+    "b9c71768-a69b-42c5-95f7-c570b2667bca": {
+      "id": "b9c71768-a69b-42c5-95f7-c570b2667bca",
+      "position": [
+        5.412368730363689e-16,
+        0.07979387610490551,
+        0.918
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        0.96,
+        1.262,
+        1.9999999999999984
+      ],
+      "geometry": {
+        "type": "plane",
+        "width": 1,
+        "height": 1
+      },
+      "material": {
+        "type": "basic",
+        "color": "#fcfcfc",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "https://pub-c6558a20d27f4a0695f85e66e0e4eb76.r2.dev/vacation.mp4"
+        },
+        "roughness": 1,
+        "normalScale": 1,
+        "metalness": 0,
+        "opacity": 1,
+        "emissiveIntensity": 0,
+        "blending": "normal",
+        "textureFiltering": "smooth",
+        "mipmaps": true,
+        "wrap": "repeat",
+        "wireframe": false,
+        "forceTransparent": false
+      },
+      "parentId": "5acc9e92-162a-4f94-8960-f08db573dca2",
+      "components": {
+        "4fc9647d-b16a-477e-9dc6-ceade3a67350": {
+          "id": "4fc9647d-b16a-477e-9dc6-ceade3a67350",
+          "name": "Video Controls UI - Image Target",
+          "parameters": {
+            "imageTargetName": "vacation",
+            "videoId": "vacation"
+          }
+        }
+      },
+      "name": "VideoPlane (23)",
+      "order": 1,
+      "shadow": {
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      "videoControls": {
+        "paused": true,
+        "loop": true
+      }
+    },
+    "829d8675-d48c-4bca-b97a-5c5964fc050f": {
+      "id": "829d8675-d48c-4bca-b97a-5c5964fc050f",
+      "position": [
+        0,
+        0,
+        0.001
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "b9c71768-a69b-42c5-95f7-c570b2667bca",
+      "components": {},
+      "ui": {
+        "type": "3d",
+        "width": 100,
+        "height": 100,
+        "background": "#000000",
+        "borderRadius": 0,
+        "flexDirection": "row",
+        "backgroundOpacity": 0.30000000000000004,
+        "padding": "10",
+        "gap": "6",
+        "alignItems": "center",
+        "justifyContent": "center"
+      },
+      "name": "Background (23)",
+      "order": 2,
+      "disabled": true
+    },
+    "ba10830b-d1e2-4bb1-80b3-82e4a438a223": {
+      "id": "ba10830b-d1e2-4bb1-80b3-82e4a438a223",
+      "position": [
+        -0.323,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "829d8675-d48c-4bca-b97a-5c5964fc050f",
+      "components": {},
+      "name": "Icon (23)",
+      "ui": {
+        "width": 16,
+        "height": 16,
+        "image": {
+          "type": "asset",
+          "asset": "assets/icons/pause-button.png"
+        },
+        "backgroundOpacity": 1,
+        "backgroundSize": "contain"
+      },
+      "order": 3
+    },
+    "ecb67093-5540-4e2c-b752-5e95a87a3ddb": {
+      "id": "ecb67093-5540-4e2c-b752-5e95a87a3ddb",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "name": "outofoffice",
+      "imageTarget": {
+        "name": "outofoffice"
+      },
+      "order": 44.39333003626053,
+      "parentId": "07e9f7e1-ea77-4843-aacf-7ecf382ae061"
+    },
+    "2bbd47c2-fe0c-4505-b109-4e6325754854": {
+      "id": "2bbd47c2-fe0c-4505-b109-4e6325754854",
+      "position": [
+        5.412368730363689e-16,
+        0.07979387610490551,
+        0.918
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        0.96,
+        1.262,
+        1.9999999999999984
+      ],
+      "geometry": {
+        "type": "plane",
+        "width": 1,
+        "height": 1
+      },
+      "material": {
+        "type": "basic",
+        "color": "#fcfcfc",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "https://pub-c6558a20d27f4a0695f85e66e0e4eb76.r2.dev/outofoffice.mp4"
+        },
+        "roughness": 1,
+        "normalScale": 1,
+        "metalness": 0,
+        "opacity": 1,
+        "emissiveIntensity": 0,
+        "blending": "normal",
+        "textureFiltering": "smooth",
+        "mipmaps": true,
+        "wrap": "repeat",
+        "wireframe": false,
+        "forceTransparent": false
+      },
+      "parentId": "ecb67093-5540-4e2c-b752-5e95a87a3ddb",
+      "components": {
+        "4fc9647d-b16a-477e-9dc6-ceade3a67350": {
+          "id": "4fc9647d-b16a-477e-9dc6-ceade3a67350",
+          "name": "Video Controls UI - Image Target",
+          "parameters": {
+            "imageTargetName": "outofoffice",
+            "videoId": "outofoffice"
+          }
+        }
+      },
+      "name": "VideoPlane (24)",
+      "order": 1,
+      "shadow": {
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      "videoControls": {
+        "paused": true,
+        "loop": true
+      }
+    },
+    "472e07ce-29c6-4b2c-a6f7-7709213d0e5e": {
+      "id": "472e07ce-29c6-4b2c-a6f7-7709213d0e5e",
+      "position": [
+        0,
+        0,
+        0.001
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "2bbd47c2-fe0c-4505-b109-4e6325754854",
+      "components": {},
+      "ui": {
+        "type": "3d",
+        "width": 100,
+        "height": 100,
+        "background": "#000000",
+        "borderRadius": 0,
+        "flexDirection": "row",
+        "backgroundOpacity": 0.30000000000000004,
+        "padding": "10",
+        "gap": "6",
+        "alignItems": "center",
+        "justifyContent": "center"
+      },
+      "name": "Background (24)",
+      "order": 2,
+      "disabled": true
+    },
+    "8fe62e83-d29b-44d6-b3d2-cbd50122feb0": {
+      "id": "8fe62e83-d29b-44d6-b3d2-cbd50122feb0",
+      "position": [
+        -0.323,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "472e07ce-29c6-4b2c-a6f7-7709213d0e5e",
+      "components": {},
+      "name": "Icon (24)",
+      "ui": {
+        "width": 16,
+        "height": 16,
+        "image": {
+          "type": "asset",
+          "asset": "assets/icons/pause-button.png"
+        },
+        "backgroundOpacity": 1,
+        "backgroundSize": "contain"
+      },
+      "order": 3
+    }
+  },
+  "spaces": {
+    "07e9f7e1-ea77-4843-aacf-7ecf382ae061": {
+      "id": "07e9f7e1-ea77-4843-aacf-7ecf382ae061",
+      "name": "Chromakey",
+      "activeCamera": "575c0c70-fbb9-44ed-b7ed-0ec0c7e9bc7e",
+      "includedSpaces": []
+    }
+  },
+  "runtimeVersion": {
+    "type": "version",
+    "level": "major",
+    "major": 2,
+    "minor": 0,
+    "patch": 0
+  },
+  "historyVersion": "mjw9eagr"
+}

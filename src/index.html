@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <script>
+    (function() {
+      var userAgent = navigator.userAgent.toLowerCase();
+      var currentUrl = window.location.href;
+
+      var isInAppBrowser = /kakaotalk|naver|instagram|fbav|fb_iab/i.test(userAgent);
+
+      if (isInAppBrowser) {
+        var isAndroid = /android/i.test(userAgent);
+        var isIOS = /iphone|ipad|ipod/i.test(userAgent);
+
+        if (/kakaotalk/i.test(userAgent)) {
+          window.location.href = 'kakaotalk://web/openExternal?url=' + encodeURIComponent(currentUrl);
+        } else if (isAndroid) {
+          var intentUrl = 'intent://' + currentUrl.replace(/https?:\/\//, '') +
+            '#Intent;scheme=https;package=com.android.chrome;end';
+          window.location.href = intentUrl;
+        } else if (isIOS) {
+          document.addEventListener('DOMContentLoaded', function() {
+            var guideHtml =
+              '<div id="browserGuide" style="' +
+              'position:fixed;top:0;left:0;right:0;bottom:0;' +
+              'background:rgba(0,0,0,0.8);z-index:9999;' +
+              'display:flex;align-items:center;justify-content:center;">' +
+              '<div style="' +
+              'background:white;padding:30px;border-radius:12px;' +
+              'max-width:320px;text-align:center;margin:20px;">' +
+              '<h3 style="margin-bottom:15px;font-size:18px;">외부 브라우저에서 열어주세요</h3>' +
+              '<p style="color:#666;font-size:14px;line-height:1.6;margin-bottom:20px;">' +
+              'AR 기능은 보안상의 이유로<br>인앱 브라우저에서 지원되지 않습니다.<br><br>' +
+              '<strong>우측 상단 메뉴(⋮)에서<br>"다른 브라우저로 열기"를 선택해주세요.</strong>' +
+              '</p>' +
+              '<button onclick="document.getElementById(\'browserGuide\').style.display=\'none\'" ' +
+              'style="background:#4285f4;color:white;border:none;' +
+              'padding:12px 30px;border-radius:6px;cursor:pointer;font-size:14px;">' +
+              '확인' +
+              '</button>' +
+              '</div>' +
+              '</div>';
+            document.body.insertAdjacentHTML('beforeend', guideHtml);
+          });
+        }
+      }
+    })();
+  </script>
+
+  <title>더가이즈</title>
+  <meta itemprop="name" content="더가이즈">
+  <meta name="twitter:title" content="더가이즈">
+  <meta property="og:title" content="더가이즈">
+  <meta property="og:site_name" content="더가이즈">
+  <meta name="description" content="">
+  <meta itemprop="description" content="">
+  <meta property="og:description" content="">
+  <meta name="twitter:description" content="">
+  <script crossorigin="anonymous" src="./external/runtime/runtime.js"></script>
+  <script crossorigin="anonymous" src="./external/xr/xr.js" async="true" data-preload-chunks="face, slam">
+  </script>
+
+</head>
+
+<body>
+<script src="bundle.js"></script>
+
+</body>
+
+</html>

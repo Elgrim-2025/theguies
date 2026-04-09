@@ -1,0 +1,18 @@
+{
+  "imagePath": "image-targets/9-2_target.png",
+  "name": "9-2",
+  "type": "PLANAR",
+  "properties": {
+    "top": 0,
+    "left": 26,
+    "width": 550,
+    "height": 734,
+    "isRotated": false,
+    "originalWidth": 604,
+    "originalHeight": 734
+  },
+  "userMetadataIsJson": true,
+  "loadAutomatically": true,
+  "created": 1767320428752,
+  "updated": 1767320428752
+}

@@ -1,0 +1,18 @@
+{
+  "imagePath": "image-targets/8-1_target.png",
+  "name": "8-1",
+  "type": "PLANAR",
+  "properties": {
+    "top": 0,
+    "left": 26,
+    "width": 547,
+    "height": 730,
+    "isRotated": false,
+    "originalWidth": 601,
+    "originalHeight": 730
+  },
+  "userMetadataIsJson": true,
+  "loadAutomatically": true,
+  "created": 1767320378023,
+  "updated": 1767320378023
+}

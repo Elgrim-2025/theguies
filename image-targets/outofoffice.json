@@ -1,0 +1,18 @@
+{
+  "imagePath": "image-targets/outofoffice_target.png",
+  "name": "outofoffice",
+  "type": "PLANAR",
+  "properties": {
+    "top": 0,
+    "left": 53,
+    "width": 548,
+    "height": 731,
+    "isRotated": false,
+    "originalWidth": 602,
+    "originalHeight": 731
+  },
+  "userMetadataIsJson": true,
+  "loadAutomatically": true,
+  "created": 1767320685911,
+  "updated": 1767320693696
+}

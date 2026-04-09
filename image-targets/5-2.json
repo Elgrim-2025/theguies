@@ -1,0 +1,18 @@
+{
+  "imagePath": "image-targets/5-2_target.png",
+  "name": "5-2",
+  "type": "PLANAR",
+  "properties": {
+    "top": 0,
+    "left": 23,
+    "width": 549,
+    "height": 732,
+    "isRotated": false,
+    "originalWidth": 595,
+    "originalHeight": 732
+  },
+  "userMetadataIsJson": true,
+  "loadAutomatically": true,
+  "created": 1767320278676,
+  "updated": 1767320278676
+}
